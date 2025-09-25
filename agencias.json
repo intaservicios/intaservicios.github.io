@@ -1,0 +1,72 @@
+[
+  {
+    "id": "agencia_lujan_de_cuyo",
+    "titulo": "Agencia de Extensión Luján de Cuyo",
+    "imagen": "img/agencias/lujan.png",
+    "descripcion": "Especializada en viticultura y producción regional.",
+    "detalles": [
+      {
+        "titulo": "Información de Contacto",
+        "descripcion": "Nos encontramos en el corazón de la región vitivinícola, ofreciendo apoyo técnico a productores.",
+        "responsable": "Juan Pérez",
+        "contacto": "Teléfono: 261-498-7654 | Email: lujan.cuyo@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "agencia_guaymallen",
+    "titulo": "Agencia de Extensión Guaymallén",
+    "imagen": "img/agencias/guaymallen.png",
+    "descripcion": "Enfocada en horticultura y cultivos intensivos en el cinturón verde.",
+    "detalles": [
+      {
+        "titulo": "Servicios de Extensión",
+        "descripcion": "Ofrecemos capacitaciones en manejo integrado de plagas y técnicas de riego eficientes.",
+        "responsable": "María García",
+        "contacto": "Teléfono: 261-423-4567 | Email: guaymallen@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "agencia_maipu",
+    "titulo": "Agencia de Extensión Maipú",
+    "imagen": "img/agencias/maipu.png",
+    "descripcion": "Unidad de referencia para la olivicultura y agricultura familiar.",
+    "detalles": [
+      {
+        "titulo": "Proyectos en Desarrollo",
+        "descripcion": "Participamos en proyectos de innovación para la producción de aceite de oliva de alta calidad.",
+        "responsable": "Carlos Torres",
+        "contacto": "Teléfono: 261-555-8888 | Email: maipu@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "agencia_uspallata",
+    "titulo": "Agencia de Extensión Uspallata",
+    "imagen": "img/agencias/uspallata.png",
+    "descripcion": "Asesoramiento para producciones en zonas de montaña y ganadería.",
+    "detalles": [
+      {
+        "titulo": "Asesoramiento Ganadero",
+        "descripcion": "Brindamos asistencia en el manejo de pasturas y salud animal en zonas de altura.",
+        "responsable": "Ana Rodríguez",
+        "contacto": "Teléfono: 2624-912345 | Email: uspallata@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "agencia_lavalle",
+    "titulo": "Agencia de Extensión Lavalle",
+    "imagen": "img/agencias/lavalle.png",
+    "descripcion": "Enfocada en el desarrollo de la agricultura en zonas desérticas.",
+    "detalles": [
+      {
+        "titulo": "Información de Contacto",
+        "descripcion": "Ayudamos a los productores a optimizar los recursos hídricos y a diversificar sus cultivos.",
+        "responsable": "Pedro Solano",
+        "contacto": "Teléfono: 2623-789012 | Email: lavalle@inta.gob.ar"
+      }
+    ]
+  }
+]

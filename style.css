@@ -1,0 +1,468 @@
+/* ----------------------------------------------------------------------
+    SECCIÓN 1: VARIABLES Y ESTILOS GLOBALES
+---------------------------------------------------------------------- */
+:root {
+    --primary-color: #004E8C;
+    --secondary-color: #0087d3;
+    --background-color: #f0f2f5;
+    --text-color: #333;
+    --card-bg: white;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --hover-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    --border-radius: 12px;
+    --transition-speed: 0.3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+    font-size: 16px; /* base accesible */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+body.fade-out {
+    animation: fadeOut 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Utilidades */
+.shadow {
+    box-shadow: var(--shadow);
+    transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+.hover-shadow:hover {
+    box-shadow: var(--hover-shadow);
+    transform: translateY(-5px);
+}
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 2: ENCABEZADO (HEADER)
+---------------------------------------------------------------------- */
+.main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--card-bg);
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+.header-top-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.header-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 0;
+    display: block;
+}
+
+.inta-logo {
+    max-height: 50px;
+}
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 3: NAVEGACIÓN
+---------------------------------------------------------------------- */
+.main-nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 20px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    margin: 0 10px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 0.9rem; /* más legible */
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+    transition: color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    outline: none;
+}
+
+.dropdown { position: relative; }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--primary-color);
+    min-width: 250px;
+    border-radius: var(--border-radius);
+    padding: 10px 0;
+    margin-top: 15px;
+    box-shadow: var(--shadow);
+    z-index: 10;
+}
+
+.dropdown:focus-within .dropdown-content,
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover,
+.dropdown-content a:focus {
+    background-color: #005a9e;
+}
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 4: BARRA DE BÚSQUEDA
+---------------------------------------------------------------------- */
+.search-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--primary-color);
+    border-radius: 25px;
+    padding: 5px 15px;
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    box-shadow: var(--shadow);
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    transition: color var(--transition-speed) ease;
+}
+
+.search-bar button:hover,
+.search-bar button:focus {
+    color: var(--secondary-color);
+    outline: none;
+}
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 5: INTRODUCCIÓN Y TARJETAS
+---------------------------------------------------------------------- */
+.intro-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px; 
+    text-align: left;
+}
+
+.intro-section .section-title,
+.intro-section .description {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-color);
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-height: 150px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--hover-shadow);
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease;
+}
+
+.card img:hover,
+.card img:focus {
+    transform: scale(1.1);
+}
+
+.card h3 {
+    font-size: 0.9em;
+    margin: 5px 0;
+    line-height: 1.2;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    flex-grow: 1;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+}
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 6: DETALLES DE SERVICIOS
+---------------------------------------------------------------------- */
+.section-title { 
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin: 0 0 20px 20px;
+}
+
+.description { 
+    font-size: 1.1rem;
+    margin: 0 0 40px 20px;
+}
+
+.service-list {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.service-item {
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.service-name {
+    padding: 20px;
+    margin: 0;
+    color: var(--primary-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.service-name i { transition: transform var(--transition-speed) ease; }
+
+.service-name.active i { transform: rotate(180deg); }
+
+.service-details {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+.service-details.active {
+    max-height: 500px;
+    padding-bottom: 20px;
+}
+
+.service-details p { margin: 5px 0; }
+
+.service-details ul { 
+    list-style-type: disc;
+    margin: 10px 0 10px 20px;
+    padding: 0;
+}
+
+.service-details ul li { margin-bottom: 5px; }
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 7: RESULTADOS DE BÚSQUEDA
+---------------------------------------------------------------------- */
+#search-results {
+    display: none;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px 20px;
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    opacity: 0;
+    animation: fadeIn 0.3s forwards;
+}
+
+#search-results h2 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+#results-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#results-list a {
+    display: block;
+    padding: 10px 15px;
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    color: var(--text-color);
+    transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+#results-list a:hover,
+#results-list a:focus {
+    transform: translateY(-2px);
+    box-shadow: var(--hover-shadow);
+}
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 8: PIE DE PÁGINA
+---------------------------------------------------------------------- */
+.main-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 0.85rem;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-contact p {
+    margin: 0;
+    font-size: 0.75rem;
+}
+
+.social-links-and-map {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.social-links-and-map a {
+    color: white;
+    transition: transform var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+
+.social-links-and-map i { font-size: 1.2rem; }
+
+.social-links-and-map a:hover,
+.social-links-and-map a:focus {
+    transform: scale(1.2);
+    color: var(--secondary-color);
+    outline: none;
+}
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 9: MEDIA QUERIES (MOBILE FIRST)
+---------------------------------------------------------------------- */
+@media (min-width: 601px) and (max-width: 900px) {
+    .main-header { gap: 5px; }
+    .header-title { font-size: 1rem; }
+    .inta-logo { max-height: 40px; }
+    .main-nav ul { justify-content: center; }
+    .main-nav a { font-size: 0.85rem; }
+    .intro-section { padding: 0 15px; }
+    .card-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 15px; }
+    .card img { width: 50px; height: 50px; }
+    .card h3 { font-size: 0.9rem; }
+    .service-name { font-size: 1.1rem; }
+    .section-title, .description { margin-left: 15px; }
+    .main-footer { padding: 10px 15px; }
+}
+
+@media (max-width: 600px) {
+    .main-header { padding: 5px; }
+    .main-nav ul { flex-direction: column; align-items: center; }
+    .main-nav li { margin: 5px 0; }
+    .search-container { padding: 10px; }
+    .section-title { font-size: 1.5rem; margin-left: 10px; }
+    .description { font-size: 1rem; margin-left: 10px; }
+    .card-grid { gap: 10px; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); padding: 10px; }
+    .card img { width: 45px; height: 45px; }
+    .card h3 { font-size: 0.85rem; }
+    .footer-contact p { font-size: 0.7rem; }
+    .main-footer { flex-direction: column; text-align: center; gap: 5px; padding: 5px; }
+    .social-links-and-map { justify-content: center; width: 100%; }
+}

@@ -1,0 +1,996 @@
+[
+  {
+    "id": "suelo",
+    "titulo": "Suelo",
+    "imagen": "img/1.png",
+    "url": "laboratorio_template.html?id=suelo",
+    "keywords": [
+      "suelo",
+      "analisis",
+      "fertilidad",
+      "salinidad",
+      "ph",
+      "nutrición",
+      "cic",
+      "boro",
+      "textura"
+    ],
+    "page_titulo": "Suelo",
+    "page_descripcion": "A continuación se muestran servicios técnicos que se realizan en suelo:",
+    "detalles": [
+      {
+        "titulo": "Salinidad Simple (CEes, pHp, VS)",
+        "descripcion": "Análisis de salinidad simple para determinar la conductividad eléctrica, pH y volumen de sedimentación del suelo.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Salinidad Básica",
+        "descripcion": "Análisis de salinidad que incluye los parámetros de Salinidad Simple más la determinación de iones principales como Calcio, Magnesio, Sodio, y Carbonatos.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Salinidad Completa",
+        "descripcion": "Análisis de salinidad más exhaustivo que incluye todos los parámetros de la salinidad básica, además de Aniones y otros elementos específicos para un diagnóstico completo del suelo.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "CEes",
+        "descripcion": "Determinación de la conductividad eléctrica del extracto de saturación (CEes).",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "pHp",
+        "descripcion": "Determinación del pH de la pasta de saturación (pHp).",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "CE (suelo/agua, 1:5)",
+        "descripcion": "Determinación de la conductividad eléctrica en una relación de suelo a agua de 1:5.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "pH hidrolitico, pH relaciones 1:2,5 a 5",
+        "descripcion": "Determinación del pH hidrolítico y en diversas relaciones de suelo a agua.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "RAS",
+        "descripcion": "Determinación de la Relación de Adsorción de Sodio (RAS).",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Volumen de Sedimentación",
+        "descripcion": "Determinación del volumen de sedimentación del suelo.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Boro - Microfotocolorimetría en extracto de saturación",
+        "descripcion": "Análisis para la detección de Boro mediante microfotocolorimetría en extracto de saturación.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "CIC (Capacidad de intercambio catiónico)",
+        "descripcion": "Medición de la capacidad de intercambio catiónico (CIC) del suelo utilizando el método de saturación con acetato de sodio.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Cationes intercambiables (Ca, Mg, Na, K)",
+        "descripcion": "Análisis de los cationes intercambiables (Calcio, Magnesio, Sodio, Potasio).",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Cationes intercambiables cada uno (Ca, Mg, Na, K)",
+        "descripcion": "Análisis individual de cada catión intercambiable.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Potasio (K) en extracto de saturación",
+        "descripcion": "Determinación del Potasio (K) en el extracto de saturación del suelo.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Sodio (Na) en extracto de saturación",
+        "descripcion": "Determinación del Sodio (Na) en el extracto de saturación del suelo.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Yeso total",
+        "descripcion": "Medición del contenido total de yeso en la muestra de suelo.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Calcáreo Total - Calcimetría",
+        "descripcion": "Análisis del contenido de calcáreo total del suelo mediante calcimetría.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Requerimiento de calcio",
+        "descripcion": "Determinación de la cantidad de calcio requerida por el suelo.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Curva de Capacidad Hídrica (3 puntos)",
+        "descripcion": "Medición de la curva de capacidad hídrica en 3 puntos (10, 30 y 1500 kPa).",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Punto adicional para la curva de capacidad hídrica",
+        "descripcion": "Medición de un punto adicional para la curva de capacidad hídrica.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Textura Elemental (Densimetría - Clasificación Americana)",
+        "descripcion": "Determinación de la textura elemental del suelo mediante densimetría y la clasificación americana.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Textura Elemental (Densimetría - Pipeta Robinson)",
+        "descripcion": "Determinación de la textura elemental del suelo mediante densimetría y el método de la pipeta Robinson.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Fraccionamiento de arenas (6 fracciones)",
+        "descripcion": "Fraccionamiento de arenas en 6 fracciones (2000µ, 1000µ, 500µ, 100µ, 250µ, 50µ, 20µ).",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Humedad de suelo",
+        "descripcion": "Determinación del contenido de humedad del suelo.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Análisis de microbioma de suelo",
+        "descripcion": "Análisis genético y de secuenciación para identificar la diversidad y composición del microbioma del suelo, clave para la salud y la productividad.",
+        "responsable": "Marcos Paolinelli",
+        "contacto": "MARCOS PAOLINELLI: paolinelli.marcos@inta.gob.ar "
+      },
+      {
+        "titulo": "Determinación de carbamatos y otros grupos químicos, incluidos fungicidas y herbicidas-, por cromatografía líquida",
+        "descripcion": "Análisis de la presencia de carbamatos y otros grupos químicos de plaguicidas en muestras de suelo mediante cromatografía líquida de alta precisión.",
+        "responsable": "Maria Turaglio - Rosanna Navarro ",
+        "contacto": "MARIA TURAGLIO: turaglio.maria@inta.gob.ar | ROSANNA NAVARRO: navarro.rosanna@inta.gob.ar "
+      },
+      {
+        "titulo": "Fertilidad",
+        "descripcion": "Análisis completo de la fertilidad del suelo, evaluando los nutrientes esenciales para optimizar la nutrición de los cultivos.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar",
+        "sub_detalles": [
+          {
+            "titulo": "Fertilidad simple (N, P y K)"
+          },
+          {
+            "titulo": "Fertilidad completa (N, P, K, MO)"
+          },
+          {
+            "titulo": "Materia orgánica suelo"
+          },
+          {
+            "titulo": "Fertilidad Micronutrientes (Fe, Mn, Cu, Zn)"
+          },
+          {
+            "titulo": "Fertilidad Micronutrientes (cada uno)"
+          },
+          {
+            "titulo": "Nitrógeno Total - Kjeldahl modificado"
+          },
+          {
+            "titulo": "Fósforo extracción carbónica"
+          },
+          {
+            "titulo": "Fósforo (método Olsen)"
+          },
+          {
+            "titulo": "Potasio disponible (extracción con acetato de NH4+)"
+          },
+          {
+            "titulo": "N-NO3 Extracción con ClK - Determinación por arrastre de vapor"
+          },
+          {
+            "titulo": "N-NH4. Extracción con ClK - Determinación por arrastre de vapor"
+          },
+          {
+            "titulo": "N-(NO3, NH4)Extracción con ClK - Determinación por arrastre de vapor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "agua_uso_agricola",
+    "titulo": "Agua de uso agrícola",
+    "imagen": "img/2.png",
+    "url": "laboratorio_template.html?id=agua_uso_agricola",
+    "keywords": [
+      "agua",
+      "riego",
+      "calidad",
+      "cultivo",
+      "regar",
+      "riego"
+    ],
+    "page_titulo": "Agua de uso agrícola",
+    "page_descripcion": "A continuación se muestran servicios técnicos que se realizan en agua para uso agrícola:",
+    "detalles": [
+      {
+        "titulo": "Agua aptitud para riego (CEA, pH, Ca, Mg, Na, Cl, SO4, CO3, HCO3, RAS)",
+        "descripcion": "Análisis completo de la aptitud del agua para riego, evaluando su conductividad eléctrica, pH y la concentración de diversos iones y compuestos esenciales para la salud del suelo y los cultivos.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Salinidad simple (CEA, pH)",
+        "descripcion": "Análisis básico de salinidad del agua, determinando la conductividad eléctrica y el pH, indicadores clave para la evaluación de la calidad del agua de riego.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "CE agua",
+        "descripcion": "Determinación de la conductividad eléctrica del agua, un parámetro fundamental para medir la concentración total de sales disueltas.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "pH",
+        "descripcion": "Medición del pH del agua, un factor crítico que influye en la disponibilidad de nutrientes para las plantas y la actividad microbiana del suelo.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Sólidos disueltos totales",
+        "descripcion": "Determinación de la cantidad de sólidos disueltos totales en el agua, lo que refleja la concentración de sales, minerales y otras sustancias inorgánicas.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Relación de adsorción de Na (RAS)",
+        "descripcion": "Análisis de la relación de adsorción de sodio, un índice que predice el riesgo de sodicidad del suelo causado por el uso de agua de riego.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Potasio (K) agua",
+        "descripcion": "Medición de la concentración de potasio en el agua, un nutriente esencial para el crecimiento de las plantas.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Sodio (Na) agua",
+        "descripcion": "Medición de la concentración de sodio en el agua, un ion que puede ser perjudicial para la estructura del suelo en altas concentraciones.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Nitrógeno de nitrato agua",
+        "descripcion": "Determinación del nitrógeno en forma de nitrato en el agua, un nutriente clave para las plantas que, en exceso, puede tener impactos ambientales.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Nitrógeno de amonio en agua",
+        "descripcion": "Medición del nitrógeno en forma de amonio en el agua, un nutriente esencial para las plantas, especialmente en suelos anegados.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Fósforo en agua",
+        "descripcion": "Análisis de la concentración de fósforo en el agua, un nutriente vital para el desarrollo de las plantas, cuya presencia en exceso puede causar eutrofización.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "DQO",
+        "descripcion": "Determinación de la demanda química de oxígeno (DQO), un parámetro que indica la cantidad de materia orgánica en el agua.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Residuo salino",
+        "descripcion": "Análisis del residuo salino del agua, que mide la cantidad de sales que quedan al evaporar la muestra, relacionado con la salinidad total.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Curva de acidificación",
+        "descripcion": "Estudio de la curva de acidificación del agua, para evaluar su capacidad de neutralizar ácidos y su potencial impacto en el pH del suelo.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Dureza total, permanente y temporaria",
+        "descripcion": "Análisis de la dureza del agua, midiendo la concentración de iones de calcio y magnesio, y clasificándola en total, permanente y temporaria.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Boro (agua Microfotocolorimetría)",
+        "descripcion": "Determinación de la concentración de boro en el agua mediante microfotocolorimetría, un oligoelemento esencial para las plantas que puede ser tóxico en altas dosis.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Determinación de carbamatos incluidos fungicidas y herbicidas",
+        "descripcion": "Análisis de la presencia de carbamatos (fungicidas y herbicidas) en el agua utilizando cromatografía líquida de alta precisión.",
+        "responsable": "MARÍA TURGALIO - ROSANNA NAVARRO",
+        "contacto": "MARÍA TURGALIO: turaglio.maria@inta.gob.ar | ROSANNA NAVARRO: navarro.rosanna@inta.gob.ar"
+      },
+      {
+        "titulo": "Determinación de organoclorados, organofosforados y piretroides",
+        "descripcion": "Análisis de la presencia de organoclorados, organofosforados y piretroides en el agua mediante cromatografía gaseosa.",
+        "responsable": "MARÍA TURGALIO - ROSANNA NAVARRO",
+        "contacto": "MARÍA TURGALIO: turaglio.maria@inta.gob.ar | ROSANNA NAVARRO: navarro.rosanna@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "material_vegetal",
+    "titulo": "Material Vegetal",
+    "imagen": "img/3.png",
+    "url": "laboratorio_template.html?id=material_vegetal",
+    "keywords": [
+      "macronutrientes",
+      "N",
+      "P",
+      "K",
+      "Ca",
+      "Mg",
+      "nitrógeno",
+      "fósforo",
+      "potasio",
+      "calcio",
+      "magnesio",
+      "fertilidad",
+      "análisis foliar"
+    ],
+    "page_titulo": "Material_vegatal",
+    "page_descripcion": "A continuación se muestran servicios técnicos que se realizan sobre material vegetal.",
+    "detalles": [
+      {
+        "titulo": "Macronutrientes (N, P, K, Ca, Mg)",
+        "descripcion": "Análisis de la concentración de macronutrientes esenciales como nitrógeno, fósforo, potasio, calcio y magnesio en la materia vegetal para evaluar la nutrición del cultivo.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Micronutrientes (Fe, Cu, Zn, Mn)",
+        "descripcion": "Análisis para determinar la presencia y concentración de micronutrientes vitales como hierro, cobre, zinc y manganeso en la materia vegetal.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Macronutrientes (N, P, K, Ca, Mg) + Micronutrientes (Fe, Cu, Zn, Mn)",
+        "descripcion": "Análisis completo que abarca la evaluación de macronutrientes y micronutrientes para obtener un perfil nutricional integral de la materia vegetal.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Nitrógeno total - Kjeldahl modificado MV",
+        "descripcion": "Determinación del contenido total de nitrógeno en la materia vegetal mediante el método modificado de Kjeldahl.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "N-NO3 (Extracción con ClNa - Determinación por arrastre de vapor)",
+        "descripcion": "Análisis específico del nitrógeno en forma de nitrato en la materia vegetal, utilizando el método de extracción con cloruro de sodio y determinación por arrastre de vapor.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Na",
+        "descripcion": "Determinación de la concentración de sodio (Na) en la materia vegetal.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Cl",
+        "descripcion": "Determinación de la concentración de cloro (Cl) en la materia vegetal.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Boro (MV - Microfotocolorimetría)",
+        "descripcion": "Determinación del boro en la materia vegetal, un micronutriente esencial que puede ser tóxico en altas concentraciones, mediante microfotocolorimetría.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Carbono total",
+        "descripcion": "Medición del contenido de carbono total en la materia vegetal, un indicador clave de la biomasa y el estado nutricional.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Determinación de biomasa",
+        "descripcion": "Análisis para cuantificar la masa total de materia vegetal, útil para estudios de crecimiento y producción de cultivos.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "abonos_orgánicos:sólidos_y_liquidos",
+    "titulo": "Abonos orgánicos: Sólidos y líquidos",
+    "imagen": "img/4.png",
+    "url": "laboratorio_template.html?id=abonos_orgánicos:sólidos_y_liquidos",
+    "keywords": [
+      "abono",
+      "abono orgánico",
+      "compost",
+      "humus",
+      "fertilizante orgánico",
+      "análisis de abono",
+      "humedad",
+      "materia orgánica",
+      "nutrientes",
+      "elementos",
+      "patógenos"
+    ],
+    "page_titulo": "Abonos orgánicos",
+    "page_descripcion": "A continuación se muestran servicios técnicos que se pueden realizar en abonos orgánicos sólidos y líquidos.",
+    "detalles": [
+      {
+        "titulo": "Humedad de abono",
+        "descripcion": "Determinación del porcentaje de humedad en abonos sólidos y líquidos.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Materia orgánica abono",
+        "descripcion": "Análisis del contenido de materia orgánica, un indicador clave de la calidad del abono.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "N total abono",
+        "descripcion": "Determinación del contenido de nitrógeno total en abonos orgánicos.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "P total",
+        "descripcion": "Determinación del fósforo total, un macronutriente esencial para las plantas.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "K total",
+        "descripcion": "Determinación del potasio total, un macronutriente fundamental para el desarrollo de los cultivos.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "CEA, pH (relación 1:5 (p:v))",
+        "descripcion": "Medición de la conductividad eléctrica y el pH en una solución 1:5 (peso:volumen) para evaluar la salinidad y acidez del abono.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Curva de acidificación",
+        "descripcion": "Análisis de la capacidad del abono para neutralizar ácidos en el suelo.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Cenizas",
+        "descripcion": "Determinación del contenido de cenizas, un indicador de la materia inorgánica en el abono.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "N-(NO3 y NH4)",
+        "descripcion": "Análisis de las formas disponibles de nitrógeno (nitrato y amonio) en el abono.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Macroelementos solubles o totales (P, Ca, Mg, K, Na)",
+        "descripcion": "Análisis de la concentración de macroelementos solubles o totales.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Microelementos solubles o totales (Zn, Mn, Cu, Fe)",
+        "descripcion": "Análisis de la concentración de microelementos solubles o totales.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Macroelemento soluble o total (cada elemento)",
+        "descripcion": "Análisis individual de la concentración de cada macroelemento soluble o total.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Microelemento soluble o total (cada elemento)",
+        "descripcion": "Análisis individual de la concentración de cada microelemento soluble o total.",
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Identificación de hongos y bacterias patológicas",
+        "descripcion": "Identificación de hongos y bacterias patógenas utilizando medios de cultivo y técnicas moleculares.",
+        "responsable": "GEORGINA ESCORIAZA - MARÍA VALERIA LONGONE",
+        "contacto": "GEORGINA ESCORIAZA: escoriaza.georgina@inta.gob.ar | MARÍA VALERIA LONGONE: longone.maria@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "frutas_y_hortalizas",
+    "titulo": "Frutas y hortalizas",
+    "imagen": "img/5.png",
+    "url": "laboratorio_template.html?id=frutas_y_hortalizas",
+    "keywords": [
+      "frutas",
+      "hortalizas",
+      "cosecha",
+      "calidad",
+      "hongos",
+      "bacterias",
+      "antioxidantes",
+      "fenoles",
+      "compuestos volátiles",
+      "pesticidas",
+      "virus",
+      "ajo",
+      "salinidad",
+      "fitosanidad"
+    ],
+    "page_titulo": "Frutas y Hortalizas",
+    "page_descripcion": "A continuación se muestran servicios técnicos que se realizan en frutas y hortalizas:",
+    "detalles": [
+      {
+        "titulo": "Determinación del momento oportuno de cosecha",
+        "descripcion": "Completar",
+        "responsable": "Completar",
+        "contacto": "Completar"
+      },
+      {
+        "titulo": "Control de calidad",
+        "descripcion": "Completar",
+        "responsable": "Completar",
+        "contacto": "Completar"
+      },
+      {
+        "titulo": "Identificación de hongos y bacterias patológicas",
+        "descripcion": "Identificación de hongos y bacterias patógenas utilizando medios de cultivo y técnicas moleculares.",
+        "responsable": "GEORGINA ESCORIAZA",
+        "contacto": "escoriaza.georgina@inta.gob.ar"
+      },
+      {
+        "titulo": "Capacidad antioxidante",
+        "descripcion": "Análisis de la capacidad antioxidante, carotenoides totales, clorofilas totales y compuestos fenólicos totales.",
+        "responsable": "MARTÍN FANZONE - MARIELA ASSOF",
+        "contacto": "fanzone.martin@inta.gob.ar | assof.mariela@inta.gob.ar"
+      },
+      {
+        "titulo": "Perfil de compuestos volátiles por HS-SPME y GC-MS",
+        "descripcion": "Completar",
+        "responsable": "MARTÍN FANZONE - MARIELA ASSOF",
+        "contacto": "fanzone.martin@inta.gob.ar | assof.mariela@inta.gob.ar"
+      },
+      {
+        "titulo": "Perfil de compuestos fenólicos de bajo peso molecular por HPLC-DAD",
+        "descripcion": "Análisis de ácidos fenólicos, flavonoles, dihidroflavonoles y estilbenos.",
+        "responsable": "MARTÍN FANZONE - MARIELA ASSOF",
+        "contacto": "fanzone.martin@inta.gob.ar | assof.mariela@inta.gob.ar"
+      },
+      {
+        "titulo": "Determinación de carbamatos y otros grupos químicos",
+        "descripcion": "Análisis de fungicidas y herbicidas por cromatografía líquida.",
+        "responsable": "MARÍA TURAGLIO - ROSANNA NAVARRO",
+        "contacto": "turaglio.maria@inta.gob.ar | navarro.rosanna@inta.gob.ar"
+      },
+      {
+        "titulo": "Determinación de organoclorados, organofosforados y piretroides",
+        "descripcion": "Análisis de pesticidas por cromatografía gaseosa.",
+        "responsable": "MARÍA TURAGLIO - ROSANNA NAVARRO",
+        "contacto": "turaglio.maria@inta.gob.ar | navarro.rosanna@inta.gob.ar"
+      },
+      {
+        "titulo": "Análisis de virus de ajo",
+        "descripcion": "Completar",
+        "responsable": "JAVIER BARONTINI - SANDRA GARCÍA LAMPASONA",
+        "contacto": "barontini.javier@inta.gob.ar | garcia.lampasona@inta.gob.ar"
+      },
+      {
+        "titulo": "Producción de plantas de ajo de salinidad controlada",
+        "descripcion": "Completar",
+        "responsable": "JAVIER BARONTINI - SANDRA GARCÍA LAMPASONA",
+        "contacto": "barontini.javier@inta.gob.ar | garcia.lampasona@inta.gob.ar"
+      },
+      {
+        "titulo": "Monitoreo de higiene",
+        "descripcion": "Monitoreo de higiene en superficies y el ambiente de los establecimientos de empaque.",
+        "responsable": "Omar González Erbin y Mariela Rodriguez Romera",
+        "contacto": "rodriguez.mariela@inta.gob.ar | gonzalez.erbin@inta.gob.ar"
+      },
+      {
+        "titulo": "Pruebas de conservación y sanidad",
+        "descripcion": "Pruebas de conservación y evolución de la sanidad de productos frescos en cámara de frío a través de la pérdida de calidad.",
+        "responsable": "Omar González Erbin y Mariela Rodriguez Romera",
+        "contacto": "rodriguez.mariela@inta.gob.ar | gonzalez.erbin@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "poscosecha",
+    "titulo": "Poscosecha",
+    "imagen": "img/6.png",
+    "url": "laboratorio_template.html?id=poscosecha",
+    "keywords": [
+      "poscosecha",
+      "calidad",
+      "conservación",
+      "frío",
+      "fungicidas",
+      "higiene",
+      "sanitizantes",
+      "microbiología",
+      "enfermedades",
+      "monitoreo"
+    ],
+    "page_titulo": "Poscosecha",
+    "page_descripcion": "A continuación se muestran servicios técnicos que se realizan en poscosecha:",
+    "detalles": [
+      {
+        "titulo": "Evaluación de eficacia de sanitizantes",
+        "descripcion": "Evaluación de la eficacia de sanitizantes para la higiene de establecimientos de empaque.",
+        "responsable": "Omar González Erbin y Mariela Rodriguez Romera",
+        "contacto": "rodriguez.mariela@inta.gob.ar | gonzalez.erbin@inta.gob.ar"
+      },
+      {
+        "titulo": "Evaluación de la eficiencia de fungicidas",
+        "descripcion": "Evaluación de la eficiencia de fungicidas para el control de enfermedades de pre y poscosecha.",
+        "responsable": "Omar González Erbin y Mariela Rodriguez Romera",
+        "contacto": "rodriguez.mariela@inta.gob.ar | gonzalez.erbin@inta.gob.ar"
+      },
+      {
+        "titulo": "Monitoreo de higiene",
+        "descripcion": "Monitoreo de higiene en superficies y el ambiente de los establecimientos de empaque.",
+        "responsable": "Omar González Erbin y Mariela Rodriguez Romera",
+        "contacto": "rodriguez.mariela@inta.gob.ar | gonzalez.erbin@inta.gob.ar"
+      },
+      {
+        "titulo": "Pruebas de conservación y sanidad",
+        "descripcion": "Pruebas de conservación y evolución de la sanidad de productos frescos en cámara de frío a través de la pérdida de calidad.",
+        "responsable": "Omar González Erbin y Mariela Rodriguez Romera",
+        "contacto": "rodriguez.mariela@inta.gob.ar | gonzalez.erbin@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "viñedos",
+    "titulo": "Viñedos",
+    "imagen": "img/7.png",
+    "url": "laboratorio_template.html?id=viñedos",
+    "keywords": [
+      "viñedos",
+      "vid",
+      "uvas",
+      "virus",
+      "enfermedades",
+      "hongos",
+      "bacterias",
+      "diagnóstico",
+      "sanidad vegetal"
+    ],
+    "page_titulo": "Viñedos",
+    "page_descripcion": "A continuación se muestran servicios técnicos que se pueden realizar en viñedos:",
+    "detalles": [
+      {
+        "titulo": "Determinación de virus vid",
+        "descripcion": "Completar",
+        "responsable": "SEBASTIÁN GÓMEZ TALQUENCA",
+        "contacto": "gomez.talquenca@inta.gob.ar"
+      },
+      {
+        "titulo": "Identificación de hongos y bacterias patológicas",
+        "descripcion": "Identificación de hongos y bacterias patógenas utilizando medios de cultivos y técnicas moleculares.",
+        "responsable": "GEORGINA ESCORIAZA",
+        "contacto": "escoriaza.georgina@inta.gob.ar"
+      }
+    ]
+  },
+  {
+  "id": "vino",
+  "titulo": "Vino",
+  "imagen": "img/8.png",
+  "url": "laboratorio_template.html?id=vino",
+  "keywords": [
+    "vino",
+    "vinificación",
+    "levaduras",
+    "análisis",
+    "parámetros fenólicos",
+    "compuestos volátiles",
+    "antocianinas",
+    "aminoácidos",
+    "haloanisoles",
+    "fenoles volátiles",
+    "metoxipirazinas",
+    "pesticidas",
+    "carbamatos",
+    "organoclorados",
+    "organofosforados",
+    "piretroides",
+    "análisis sensorial",
+    "degustación"
+  ],
+  "page_titulo": "Vino",
+  "page_descripcion": "A continuación, se muestran servicios técnicos que se pueden realizar en vinos:",
+  "detalles": [
+    {
+      "titulo": "Selección de levaduras para vinificación",
+      "descripcion": "Completar",
+      "responsable": "MARIANA COMBINA",
+      "contacto": "combina.mariana@inta.gob.ar"
+    },
+    {
+      "titulo": "Parámetros fenólicos globales en uva, mosto y vino",
+      "descripcion": "Completar",
+      "responsable": "MARTÍN FANZONE - MARIELA ASSOF",
+      "contacto": "fanzone.martin@inta.gob.ar | assof.mariela@inta.gob.ar"
+    },
+    {
+      "titulo": "Perfil de compuestos volátiles por HS-SPME y GC-MS",
+      "descripcion": "Completar",
+      "responsable": "MARTÍN FANZONE - MARIELA ASSOF",
+      "contacto": "fanzone.martin@inta.gob.ar | assof.mariela@inta.gob.ar"
+    },
+    {
+      "titulo": "Perfil de antocianinas por HPLC-DAD",
+      "descripcion": "Completar",
+      "responsable": "MARTÍN FANZONE - MARIELA ASSOF",
+      "contacto": "fanzone.martin@inta.gob.ar | assof.mariela@inta.gob.ar"
+    },
+    {
+      "titulo": "Perfil de compuestos fenólicos de bajo peso molecular por HPLC-DAD",
+      "descripcion": "Análisis de ácidos fenólicos, flavonoles, dihidroflavonoles y estilbenos.",
+      "responsable": "MARTÍN FANZONE - MARIELA ASSOF",
+      "contacto": "fanzone.martin@inta.gob.ar | assof.mariela@inta.gob.ar"
+    },
+    {
+      "titulo": "Perfil de aminoácidos por HPLC-DAD",
+      "descripcion": "Completar",
+      "responsable": "MARTÍN FANZONE - MARIELA ASSOF",
+      "contacto": "fanzone.martin@inta.gob.ar | assof.mariela@inta.gob.ar"
+    },
+    {
+      "titulo": "Determinación de haloanisoles por GC-MS (insumos de bodega)",
+      "descripcion": "Completar",
+      "responsable": "Completar",
+      "contacto": "Completar"
+    },
+    {
+      "titulo": "Determinación de fenoles volátiles por GC-MS en vinos",
+      "descripcion": "Completar",
+      "responsable": "Completar",
+      "contacto": "Completar"
+    },
+    {
+      "titulo": "Determinación de metoxipirazinas por GC-MS en uvas y vinos",
+      "descripcion": "Completar",
+      "responsable": "MARÍA TURAGLIO - ROSANNA NAVARRO",
+      "contacto": "turaglio.maria@inta.gob.ar | navarro.rosanna@inta.gob.ar"
+    },
+    {
+      "titulo": "Determinación de carbamatos y otros grupos químicos, incluidos fungicidas y herbicidas, por cromatografía líquida",
+      "descripcion": "Completar",
+      "responsable": "MARÍA TURAGLIO - ROSANNA NAVARRO",
+      "contacto": "turaglio.maria@inta.gob.ar | navarro.rosanna@inta.gob.ar"
+    },
+    {
+      "titulo": "Determinación de organoclorados, organofosforados y piretroides por cromatografía gaseosa",
+      "descripcion": "Completar",
+      "responsable": "MARÍA TURAGLIO - ROSANNA NAVARRO",
+      "contacto": "turaglio.maria@inta.gob.ar | navarro.rosanna@inta.gob.ar"
+    },
+    {
+      "titulo": "Análisis descriptivo de vinos",
+      "descripcion": "Completar",
+      "responsable": "SANTIAGO SARI",
+      "contacto": "sari.santiago@inta.gob.ar"
+    },
+    {
+      "titulo": "Técnicas rápidas sensoriales en vinos",
+      "descripcion": "Completar",
+      "responsable": "SANTIAGO SARI",
+      "contacto": "sari.santiago@inta.gob.ar"
+    },
+    {
+      "titulo": "Análisis discriminante en vinos",
+      "descripcion": "Completar",
+      "responsable": "SANTIAGO SARI",
+      "contacto": "sari.santiago@inta.gob.ar"
+    },
+    {
+      "titulo": "Vinificaciones a pequeña escala en recipientes de 20 L",
+      "descripcion": "Completar",
+      "responsable": "SANTIAGO SARI",
+      "contacto": "sari.santiago@inta.gob.ar"
+    },
+    {
+      "titulo": "Vinificaciones a pequeña escala en tanques de 100 L",
+      "descripcion": "Completar",
+      "responsable": "SANTIAGO SARI",
+      "contacto": "sari.santiago@inta.gob.ar"
+    }
+  ]
+},
+ {
+  "id": "hongos_comestibles",
+  "titulo": "Hongos Comestibles",
+  "imagen": "img/9.png",
+  "url": "laboratorio_template.html?id=hongos_comestibles",
+  "keywords": [
+    "hongos comestibles",
+    "cultivo",
+    "asesoramiento",
+    "producción",
+    "micología",
+    "técnico",
+    "comercialización"
+  ],
+  "page_titulo": "Hongos",
+  "page_descripcion": "A continuación, se muestran servicios técnicos que se pueden realizar en hongos:",
+  "detalles": [
+    {
+      "titulo": "Asesoramiento técnico de cultivo de hongos comestibles",
+      "descripcion": "Completar",
+      "responsable": "CECILIA CESARI",
+      "contacto": "cesari.cecilia@inta.gob.ar"
+    }
+  ]
+},
+{
+  "id": "aromáticas",
+  "titulo": "Aromáticas",
+  "imagen": "img/10.png",
+  "url": "laboratorio_template.html?id=aromáticas",
+  "keywords": [
+    "plantas aromáticas",
+    "aromáticas",
+    "compuestos volátiles",
+    "perfil",
+    "GC-MS",
+    "análisis"
+  ],
+  "page_titulo": "Plantas aromáticas",
+  "page_descripcion": "A continuación, se muestran servicios técnicos que se pueden realizar en plantas aromáticas:",
+  "detalles": [
+    {
+      "titulo": "Perfil de compuestos volátiles por HS-SPME y GC-MS",
+      "descripcion": "Completar",
+      "responsable": "MARTÍN FANZONE - MARIELA ASSOF",
+      "contacto": "fanzone.martin@inta.gob.ar | assof.mariela@inta.gob.ar"
+    }
+  ]
+},
+{
+  "id": "plagas_cuarentenarias",
+  "titulo": "Plagas Cuarentenarias",
+  "imagen": "img/12.png",
+  "url": "laboratorio_template.html?id=plagas_cuarentenarias",
+  "keywords": [
+    "plagas",
+    "cuarentenarias",
+    "detección",
+    "frutos",
+    "importación",
+    "exportación",
+    "fitosanidad"
+  ],
+  "page_titulo": "Plagas cuarentenarias",
+  "page_descripcion": "A continuación, se muestran servicios técnicos que se pueden realizar en plagas cuarentenarias:",
+  "detalles": [
+    {
+      "titulo": "Detección de plagas en frutos de importación y exportación",
+      "descripcion": "Completar",
+      "responsable": "GRACIELA MENDOZA - BRUNO MARCUCCI",
+      "contacto": "mendoza.graciela@inta.gob.ar | marcucci.bruno@inta.gob.ar"
+    }
+  ]
+},
+{
+    "id": "pesticidas",
+    "titulo": "Plagas y pesticidas",
+    "imagen": "img/13.png",
+    "url": "laboratorio_template.html?id=pesticidas",
+    "keywords": [
+      "pesticidas"
+    ],
+    "page_titulo": "Plagas y pesticidas ",
+    "page_descripcion": "A continuación, se muestran servicios asociado a plagas y pesticidas:",
+    "detalles": [
+      {
+        "titulo": "Determinación de pesticidas",
+        "descripcion": "Completar",
+        "responsable": "Maria Turaglio - Rosanna Navarro ",
+        "contacto": "MARÍA TURGALIO: turaglio.maria@inta.gob.ar | ROSANNA NAVARRO: navarro.rosanna@inta.gob.ar"
+      },
+      {
+        "titulo": "Determinación de herbicidas",
+        "descripcion": "Completar",
+        "responsable": "Maria Turaglio - Rosanna Navarro ",
+        "contacto": "MARÍA TURGALIO: turaglio.maria@inta.gob.ar | ROSANNA NAVARRO: navarro.rosanna@inta.gob.ar"
+      },
+      {
+        "titulo": "Determinación de funguicida",
+        "descripcion": "Completar",
+        "responsable": "Maria Turaglio - Rosanna Navarro ",
+        "contacto": "MARÍA TURGALIO: turaglio.maria@inta.gob.ar | ROSANNA NAVARRO: navarro.rosanna@inta.gob.ar"
+      },
+      {
+        "titulo": "Evaluación de la eficiencia de fungicidas",
+        "descripcion": "Evaluación de la eficiencia de fungicidas para el control de enfermedades de pre y poscosecha.",
+        "responsable": "Omar González Erbin y Mariela Rodriguez Romera",
+        "contacto": "rodriguez.mariela@inta.gob.ar | gonzalez.erbin@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "proteccion_vegetal",
+    "titulo": "Protección vegetal",
+    "imagen": "img/14.png",
+    "url": "laboratorio_template.html?id=proteccion_vegetal",
+    "keywords": [
+      "protección"
+    ],
+    "page_titulo": "Protección vegetal ",
+    "page_descripcion": "A continuación, se muestran servicios servicios para la protección de cultivos vegetales:",
+    "detalles": [
+      {
+        "titulo": "completar",
+        "descripcion": "Completar",
+        "responsable": "completar",
+        "contacto": "completar"
+      }
+    ]
+  },
+  {
+    "id": "otros",
+    "titulo": "Otros",
+    "imagen": "img/11.png",
+    "url": "laboratorio_template.html?id=otros",
+    "keywords": [
+      "liofilización",
+      "servicios adicionales",
+      "procesos",
+      "productos"
+    ],
+    "page_titulo": "Servicios adicionales que se pueden ofrecer",
+    "page_descripcion": "A continuación, se muestran servicios técnicos adicionales:",
+    "detalles": [
+      {
+        "titulo": "Liofilización",
+        "descripcion": "Completar",
+        "responsable": "MARTÍN FANZONE - MARIELA ASSOF",
+        "contacto": "fanzone.martin@inta.gob.ar | assof.mariela@inta.gob.ar"
+      }
+    ]
+  }
+]

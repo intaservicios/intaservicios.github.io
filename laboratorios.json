@@ -1,0 +1,477 @@
+[
+  {
+    "id": "aromas",
+    "titulo": "Laboratorio de Aromas y Sustancias Naturales",
+    "page_titulo": "Laboratorio de Aromas y Sustancias Naturales",
+    "descripcion": "Este laboratorio se especializa en el análisis y caracterización de los compuestos volátiles y no volátiles que definen el aroma, sabor y propiedades de diversos productos. Utiliza técnicas avanzadas para evaluar la calidad y autenticidad de vinos, frutas, hierbas y aceites esenciales, entre otros.",
+    "page_descripcion": "Este laboratorio se especializa en el análisis y caracterización de los compuestos volátiles y no volátiles que definen el aroma, sabor y propiedades de diversos productos. Utiliza técnicas avanzadas para evaluar la calidad y autenticidad de vinos, frutas, hierbas y aceites esenciales, entre otros.",
+    "imagen": "img/laboratorios/aromas.png",
+    "page_imagen": "img/laboratorios/aromas.png",
+    "detalles": [
+      {
+        "titulo": "Parámetros fenólicos globales",
+        "descripcion": "Análisis de fenoles, taninos, antocianinas, pigmentos poliméricos y parámetros de color CIELAB en uva, mosto y vino.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Parámetros químicos totales",
+        "descripcion": "Evaluación de la capacidad antioxidante, carotenoides, clorofilas y compuestos fenólicos totales en frutas, alimentos, bebidas, aceites esenciales y hierbas medicinales.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Perfil de compuestos volátiles",
+        "descripcion": "Análisis por HS-SPME y GC-MS en frutas, hortalizas, hongos comestibles, bebidas, destilados y aceites esenciales.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Perfil de antocianinas",
+        "descripcion": "Análisis por HPLC-DAD en uvas y vinos.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Perfil de compuestos fenólicos de bajo peso molecular",
+        "descripcion": "Análisis por HPLC-DAD de ácidos fenólicos, flavonoles, dihidroflavonoles y estilbenos en frutas, hortalizas, bebidas e insumos enológicos.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Perfil de aminoácidos",
+        "descripcion": "Análisis por HPLC-DAD en uvas y vinos.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Liofilización",
+        "descripcion": "Servicio de liofilización.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Capacitaciones",
+        "descripcion": "Ofrecemos capacitaciones en metodologías analíticas, puesta en funcionamiento de instrumental y diseño experimental.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Determinación de haloanisoles y fenoles volátiles",
+        "descripcion": "Análisis por GC-MS en insumos de bodega y vinos.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Determinación de metoxipirazinas",
+        "descripcion": "Análisis por GC-MS en uvas y vinos.",
+        "responsable": "",
+        "contacto": ""
+      }
+    ]
+  },
+  {
+    "id": "fitopatologias",
+    "titulo": "Laboratorio de Fitopatologías",
+    "page_titulo": "Laboratorio de Fitopatologías",
+    "descripcion": "Este laboratorio se especializa en la detección y diagnóstico de enfermedades que afectan a las plantas, causadas por hongos y bacterias. También evalúa la efectividad de tratamientos fungicidas y bactericidas. Es fundamental para la prevención y control de enfermedades en la agricultura.",
+    "page_descripcion": "Este laboratorio se especializa en la detección y diagnóstico de enfermedades que afectan a las plantas, causadas por hongos y bacterias. También evalúa la efectividad de tratamientos fungicidas y bactericidas. Es fundamental para la prevención y control de enfermedades en la agricultura.",
+    "imagen": "img/laboratorios/fitopatologias.png",
+    "page_imagen": "img/laboratorios/fitopatologias.png",
+    "detalles": [
+      {
+        "titulo": "Diagnóstico de enfermedades",
+        "descripcion": "Diagnóstico en vid, olivo, frutales de carozo y petita, frutos secos, frutillas y hortícolas.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Detección y cultivo de hongos y bacterias",
+        "descripcion": "Detección de hongos y bacterias en suelo, cámaras húmedas para identificación de patógenos y aislamiento en medios de cultivo.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Prueba de patogenicidad",
+        "descripcion": "Realización de pruebas para determinar la patogenicidad de microorganismos.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Identificación molecular",
+        "descripcion": "Confirmación molecular de la identidad de patógenos de pre y pos-cosecha.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Análisis de efectividad de fungicidas",
+        "descripcion": "Estimación de la efectividad in vitro e in vivo de fungicidas químicos y biológicos para el control de enfermedades.",
+        "responsable": "",
+        "contacto": ""
+      }
+    ]
+  },
+  {
+    "id": "agroalimentos",
+    "titulo": "Laboratorio de Agroalimentos",
+    "page_titulo": "Laboratorio de Agroalimentos",
+    "descripcion": "Se centra en el control de calidad de productos agrícolas como frutas y hortalizas, desde su cosecha hasta que llegan al consumidor. Además, ofrece asesoramiento en temas de conservación, almacenamiento y comercialización, y se especializa en la producción de hongos comestibles.",
+    "page_descripcion": "Se centra en el control de calidad de productos agrícolas como frutas y hortalizas, desde su cosecha hasta que llegan al consumidor. Además, ofrece asesoramiento en temas de conservación, almacenamiento y comercialización, y se especializa en la producción de hongos comestibles.",
+    "imagen": "img/laboratorios/agroalimentos.png",
+    "page_imagen": "img/laboratorios/agroalimentos.png",
+    "detalles": [
+      {
+        "titulo": "Determinación de cosecha",
+        "descripcion": "Determinación del momento oportuno de cosecha de frutas y hortalizas.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Control de calidad",
+        "descripcion": "Análisis físicos y químicos en frutas y hortalizas desde el campo hasta el consumidor.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Determinación de composición gaseosa",
+        "descripcion": "Análisis de composición gaseosa ambiental, en envases y embalajes.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Logística y manejo",
+        "descripcion": "Control y seguimiento del manejo de empaque, conservación frigorífica, transporte y comercialización.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Producción de hongos",
+        "descripcion": "Instrucción, acompañamiento y visitas técnicas relacionadas con la producción de hongos comestibles y subproductos.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Sustratos para cultivo",
+        "descripcion": "Formulación y evaluación de sustratos para el cultivo sustentable de hongos.",
+        "responsable": "",
+        "contacto": ""
+      }
+    ]
+  },
+  {
+    "id": "plaga",
+    "titulo": "Laboratorio de plagas agrícolas y ambiente",
+    "page_titulo": "Laboratorio de plagas agrícolas y ambiente",
+    "descripcion": "Este laboratorio se dedica a la detección y control de plagas y residuos de pesticidas en diversos productos agrícolas y ambientes. Es crucial para garantizar la seguridad de los alimentos y el cumplimiento de las normativas de exportación e importación.",
+    "page_descripcion": "Este laboratorio se dedica a la detección y control de plagas y residuos de pesticidas en diversos productos agrícolas y ambientes. Es crucial para garantizar la seguridad de los alimentos y el cumplimiento de las normativas de exportación e importación.",
+    "imagen": "img/laboratorios/fitofarmacia.png",
+    "page_imagen": "img/laboratorios/fitofarmacia.png",
+    "detalles": [
+      {
+        "titulo": "Plagas cuarentenarias",
+        "descripcion": "Determinación de plagas cuarentenarias en frutos de exportación e importación.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Eficacia de pesticidas",
+        "descripcion": "Determinación de la eficacia de pesticidas a campo.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Residuos por cromatografía gaseosa (GC)",
+        "descripcion": "Determinación de residuos de pesticidas organoclorados, organofosforados y piretroide en diversos productos.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Residuos por cromatografía líquida (LC)",
+        "descripcion": "Determinación de residuos de pesticidas carbamatos, neonicotinoides, benzimidazoles, etc. en diversos productos.",
+        "responsable": "",
+        "contacto": ""
+      }
+    ]
+  },
+  {
+    "id": "suelo_agua_material",
+    "titulo": "Laboratorio de Suelo, Agua y Material Vegetal",
+    "page_titulo": "Laboratorio de Suelo, Agua y Material Vegetal",
+    "page_descripcion": "Nuestro laboratorio está dedicado al desarrollo y ajuste de metodologías de análisis relacionados a suelo, agua y material vegetal. Brinda apoyo a la investigación y extensión, y también ofrece servicios de análisis al sector privado.",
+    "imagen": "img/15.png",
+    "detalles": [
+      {
+        "titulo": "SUELO",
+        "descripcion": [
+          "Salinidad Simple (CEes, pHp, VS)",
+          "Salinidad Básica (CEes, sales probables, pH, VS, humedad de saturación, Ca, Mg, Na, Cl, RAS)",
+          "Salinidad Completa (CEes, sales probables, pH, VS, humedad de saturación, Ca, Mg, Na, Cl, SO4, CO3, HCO3 y RAS)",
+          "CEes",
+          "pHp",
+          "CE (suelo/agua, 1:5)",
+          "pH hidrolítico, pH relaciones 1:2,5 a 5",
+          "RAS",
+          "Volumen de Sedimentación",
+          "Boro - Microfotocolorimetría en extracto de saturación",
+          "CIC (Capacidad de intercambio catiónico) - Saturación con acetato de sodio",
+          "Cationes intercambiables (Ca, Mg, Na, K)",
+          "Cationes intercambiables cada uno (Ca, Mg, Na, K)",
+          "Potasio (K) en extracto de saturación",
+          "Sodio (Na) en extracto de saturación",
+          "Yeso total",
+          "Calcáreo Total - Calcimetría",
+          "Requerimiento de calcio"
+        ],
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "FERTILIDAD",
+        "descripcion": [
+          "Fertilidad simple (N, P y K)",
+          "Fertilidad completa (N, P, K, MO)",
+          "Materia orgánica suelo",
+          "Fertilidad Micronutrientes (Fe, Mn, Cu, Zn)",
+          "Fertilidad Micronutrientes (cada uno)",
+          "Nitrógeno Total - Kjeldahl modificado",
+          "Fósforo extracción carbónica",
+          "Fósforo (método Olsen)",
+          "Potasio disponible (extracción con acetato de NH4+)",
+          "N-NO3 Extracción con ClK - Determinación por arrastre de vapor",
+          "N-NH4 Extracción con ClK - Determinación por arrastre de vapor",
+          "N-(NO3, NH4) Extracción con ClK - Determinación por arrastre de vapor"
+        ],
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "FÍSICA",
+        "descripcion": [
+          "Curva de Capacidad Hídrica por 3 puntos (10, 30, 1500 kPa)",
+          "Punto adicional para la curva de capacidad hídrica",
+          "Textura Elemental (Densimetría - Clasificación Americana) - Bouyoucos",
+          "Textura Elemental (Densimetría - Clasificación Americana) - Pipeta Robinson",
+          "Fraccionamiento de arenas 6 fracciones (2000µ, 1000µ, 500µ, 250µ, 100µ, 50µ, 20µ)",
+          "Humedad de suelo"
+        ],
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "MATERIAL VEGETAL",
+        "descripcion": [
+          "Macronutrientes (N, P, K, Ca, Mg)",
+          "Micronutrientes (Fe, Cu, Zn, Mn)",
+          "Macronutrientes + Micronutrientes",
+          "Nitrógeno total - Kjeldahl modificado mv"
+        ],
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "ANÁLISIS EXTRA",
+        "descripcion": [
+          "N-NO3 (Extracción con ClNa - Determinación por arrastre de vapor)",
+          "Na",
+          "Cl",
+          "Boro (MV - Microfotocolorimetría)",
+          "Carbono total",
+          "Determinación de biomasa"
+        ],
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "AGUA PARA USO AGRÍCOLA",
+        "descripcion": [
+          "Agua aptitud para riego (CEA, pH, Ca, Mg, Na, Cl, SO4, CO3, HCO3, RAS)",
+          "Salinidad Simple (CEA, pH)",
+          "CE agua",
+          "pH",
+          "Sólidos disueltos totales",
+          "Relación de adsorción de Na (RAS)",
+          "Potasio (K) agua",
+          "Sodio (Na) agua",
+          "Nitrógeno de nitrato agua",
+          "Nitrógeno de amonio en agua",
+          "Fósforo en agua",
+          "DQO",
+          "Residuo Salino",
+          "Curva de acidificación",
+          "Dureza total, permanente y temporaria",
+          "Boro - (agua Microfotocolorimetría)"
+        ],
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "ABONOS ORGÁNICOS (Sólidos y líquidos)",
+        "descripcion": [
+          "Humedad de abono",
+          "Materia orgánica abono",
+          "N total abono",
+          "P total, K total",
+          "CEA, pH (relación 1:5 p:v)",
+          "Curva de acidificación",
+          "Completo (humedad, MO, cenizas, N total, P total, K total, CEA, pH relación 1:5)",
+          "N-(NO3 y NH4)",
+          "Macroelementos solubles o totales (P, Ca, Mg, K, Na)",
+          "Microelementos solubles o totales (Zn, Mn, Cu, Fe)",
+          "Macroelemento soluble o total (cada elemento)",
+          "Microelemento soluble o total (cada elemento)"
+        ],
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "ESPECIALES",
+        "descripcion": [
+          "Macroelemento y microelemento soluble por AA (cada elemento)"
+        ],
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "OTROS",
+        "descripcion": [
+          "Ca en fruta procesada",
+          "Cu en solución"
+        ],
+        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
+        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "fitovirologia",
+    "titulo": "Laboratorio de Fitovirología",
+    "page_titulo": "Laboratorio de Fitovirología",
+    "descripcion": "Un laboratorio que se especializa en el diagnóstico de enfermedades causadas por virus en plantas. Realiza pruebas para identificar y caracterizar virosis que pueden afectar a los cultivos, ayudando a prevenir su propagación y los daños económicos que estas causan.",
+    "page_descripcion": "Un laboratorio que se especializa en el diagnóstico de enfermedades causadas por virus en plantas. Realiza pruebas para identificar y caracterizar virosis que pueden afectar a los cultivos, ayudando a prevenir su propagación y los daños económicos que estas causan.",
+    "imagen": "img/laboratorios/fitovirologia.png",
+    "page_imagen": "img/laboratorios/fitovirologia.png",
+    "detalles": [
+      {
+        "titulo": "Determinación de virus en vid",
+        "descripcion": "Análisis por PCR y RT-qPCR.",
+        "responsable": "",
+        "contacto": ""
+      }
+    ]
+  },
+  {
+    "id": "biotecnologia",
+    "titulo": "Laboratorio de Biotecnología",
+    "page_titulo": "Laboratorio de Biotecnología",
+    "descripcion": "Este laboratorio utiliza técnicas de biología molecular para la mejora de los cultivos, el diagnóstico de enfermedades genéticas y la investigación de procesos biológicos. Es fundamental para el desarrollo de variedades de plantas más resistentes y productivas.",
+    "page_descripcion": "Este laboratorio utiliza técnicas de biología molecular para la mejora de los cultivos, el diagnóstico de enfermedades genéticas y la investigación de procesos biológicos. Es fundamental para el desarrollo de variedades de plantas más resistentes y productivas.",
+    "imagen": "img/laboratorios/biotecnologia.png",
+    "page_imagen": "img/laboratorios/biotecnologia.png",
+    "detalles": [
+      {
+        "titulo": "Producción de plantas de ajo",
+        "descripcion": "Producción de plantas de ajo de sanidad controlada.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Análisis de virus de ajo",
+        "descripcion": "Análisis para la detección de virus en ajo.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Análisis de microbioma",
+        "descripcion": "Servicio de análisis de microbioma.",
+        "responsable": "",
+        "contacto": ""
+      }
+    ]
+  },
+  {
+    "id": "estudios_enologicos",
+    "titulo": "Laboratorio de Estudios Enológicos",
+    "page_titulo": "Laboratorio de Estudios Enológicos",
+    "descripcion": "Este laboratorio se enfoca en el análisis químico y sensorial del vino. Realiza evaluaciones de los compuestos que le dan sabor, aroma y color, lo que permite a los productores controlar la calidad de sus vinos y entender sus características distintivas.",
+    "page_descripcion": "Este laboratorio se enfoca en el análisis químico y sensorial del vino. Realiza evaluaciones de los compuestos que le dan sabor, aroma y color, lo que permite a los productores controlar la calidad de sus vinos y entender sus características distintivas.",
+    "imagen": "img/laboratorios/enologicos.png",
+    "page_imagen": "img/laboratorios/enologicos.png",
+    "detalles": [
+      {
+        "titulo": "Análisis descriptivo de vinos",
+        "descripcion": "Análisis sensorial completo de vinos.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Técnicas rápidas sensoriales",
+        "descripcion": "Aplicación de técnicas rápidas para evaluación sensorial.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Análisis discriminante",
+        "descripcion": "Análisis discriminante en vinos.",
+        "responsable": "",
+        "contacto": ""
+      },
+      {
+        "titulo": "Vinificaciones a pequeña escala",
+        "descripcion": "Vinificaciones en recipientes de 20 L y 100 L.",
+        "responsable": "",
+        "contacto": ""
+      }
+    ]
+  },
+  {
+    "id": "microbiologia_enologica",
+    "titulo": "Laboratorio de Microbiología Enológica",
+    "page_titulo": "Laboratorio de Microbiología Enológica",
+    "descripcion": "Se dedica al estudio de los microorganismos que intervienen en la producción del vino, como levaduras y bacterias. Su trabajo es clave para asegurar una fermentación exitosa y prevenir defectos microbiológicos que puedan afectar la calidad del producto final.",
+    "page_descripcion": "Se dedica al estudio de los microorganismos que intervienen en la producción del vino, como levaduras y bacterias. Su trabajo es clave para asegurar una fermentación exitosa y prevenir defectos microbiológicos que puedan afectar la calidad del producto final.",
+    "imagen": "img/laboratorios/microbiologia.png",
+    "page_imagen": "img/laboratorios/microbiologia.png",
+    "detalles": [
+      {
+        "titulo": "Selección de levaduras para vinos",
+        "descripcion": "Servicio de selección de levaduras.",
+        "responsable": "",
+        "contacto": ""
+      }
+    ]
+  },
+  {
+    "id": "patologias_poscosechas",
+    "titulo": "Laboratorio de Patologías poscosecha",
+    "page_titulo": "Laboratorio de Patologías poscosecha",
+    "descripcion": "completar",
+    "page_descripcion": "completar",
+    "imagen": "img/laboratorios/microbiologia.png",
+    "page_imagen": "img/laboratorios/microbiologia.png",
+    "detalles": [
+      {
+        "titulo": "",
+        "descripcion": "",
+        "responsable": "",
+        "contacto": ""
+      }
+    ]
+  },
+  {
+    "id": "ecologia_biocontrol",
+    "titulo": "Laboratorio de ecología y bio-control",
+    "page_titulo": "Laboratorio de ecología y bio-control",
+    "descripcion": "completar",
+    "page_descripcion": "completar",
+    "imagen": "img/laboratorios/microbiologia.png",
+    "page_imagen": "img/laboratorios/microbiologia.png",
+    "detalles": [
+      {
+        "titulo": "",
+        "descripcion": "",
+        "responsable": "",
+        "contacto": ""
+      }
+    ]
+  }
+]
