@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Redireccionando...</title>
+    <script>
+        // Obtiene la ruta del URL
+        var path = window.location.pathname;
+
+        // Si la ruta termina con .html (que es como funcionan tus rutas),
+        // encuentra el nombre del archivo y sus parámetros.
+        if (path.includes('.html')) {
+            var parts = path.split('/');
+            var filename = parts[parts.length - 1];
+            var search = window.location.search;
+            window.location.replace('/' + filename + search);
+        } else {
+            // Si no es un archivo .html, asume que es una ruta de SPA
+            // y redirecciona al index con la ruta como parámetro.
+            window.location.replace('/?path=' + path);
+        }
+    </script>
+</head>
+<body>
+    <p>Si no es redirigido automáticamente, haga clic <a href="/">aquí</a>.</p>
+</body>
+</html>
