@@ -42,11 +42,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const handleLinkClick = function (e) {
         const href = this.getAttribute('href');
-        if (href.startsWith('#')) return;
+
+        // Ignorar anclas (#) y enlaces externos absolutos
+        if (!href || href.startsWith('#') || href.startsWith('http')) return;
+
         e.preventDefault();
         document.body.classList.add('fade-out');
+
         document.body.addEventListener('animationend', () => {
-            window.location.href = href;
+            location.assign(href); // asegura que quede en el historial
         }, { once: true });
     };
 
@@ -188,11 +192,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // === FIX: Manejar cuando el usuario vuelve atrás en el navegador ===
     window.addEventListener("pageshow", (event) => {
-        if (event.persisted) { // si viene desde la caché
-            document.body.classList.remove("fade-out");
-            document.body.classList.add("loaded");
-            init(); // volver a inicializar
+        document.body.classList.remove("fade-out");
+        document.body.classList.add("loaded");
+        if (event.persisted) {
+            init(); // volver a inicializar si viene de caché
         }
     });
 
 });
+
+
