@@ -185,4 +185,14 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     init();
+
+    // === FIX: Manejar cuando el usuario vuelve atrás en el navegador ===
+    window.addEventListener("pageshow", (event) => {
+        if (event.persisted) { // si viene desde la caché
+            document.body.classList.remove("fade-out");
+            document.body.classList.add("loaded");
+            init(); // volver a inicializar
+        }
+    });
+
 });
