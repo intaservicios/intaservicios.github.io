@@ -121,7 +121,7 @@ body.fade-out {
     text-decoration: none;
     color: var(--primary-color);
     font-weight: 600;
-    font-size: 0.9rem; /* más legible */
+    font-size: 0.9rem;
     padding: 5px 0;
     border-bottom: 2px solid transparent;
     transition: color var(--transition-speed) ease, border-color var(--transition-speed) ease;
@@ -211,7 +211,7 @@ body.fade-out {
 }
 
 /* ----------------------------------------------------------------------
-    SECCIÓN 5: INTRODUCCIÓN Y TARJETAS
+    SECCIÓN 5: INTRODUCCIÓN Y TARJETAS (CON IMAGEN/ÍCONO)
 ---------------------------------------------------------------------- */
 .intro-section {
     max-width: 800px;
@@ -241,13 +241,12 @@ body.fade-out {
     color: var(--text-color);
     box-shadow: var(--shadow);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    aspect-ratio: 1 / 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    min-height: 150px;
+    min-height: 150px; /* Asegura una altura mínima */
 }
 
 .card:hover {
@@ -255,6 +254,7 @@ body.fade-out {
     box-shadow: var(--hover-shadow);
 }
 
+/* ESTILOS DE IMAGEN DE TARJETA REINTRODUCIDOS */
 .card img {
     width: 60px;
     height: 60px;
@@ -268,9 +268,9 @@ body.fade-out {
 }
 
 .card h3 {
-    font-size: 0.9em;
+    font-size: 1rem;
     margin: 5px 0;
-    line-height: 1.2;
+    line-height: 1.3;
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;
@@ -279,7 +279,12 @@ body.fade-out {
     align-items: center;
     justify-content: center;
     padding: 0 5px;
+    overflow: visible;
 }
+/* ----------------------------------------------------------------------
+    SECCIÓN 5.5: IMAGEN DEL LABORATORIO (ELIMINADA)
+    - Esta sección se elimina ya que la imagen ya no va en la página de detalle.
+---------------------------------------------------------------------- */
 
 /* ----------------------------------------------------------------------
     SECCIÓN 6: DETALLES DE SERVICIOS
@@ -342,6 +347,12 @@ body.fade-out {
     list-style-type: disc;
     margin: 10px 0 10px 20px;
     padding: 0;
+    
+    /* SOLUCIÓN LISTAS LARGAS ESCRITORIO/TABLET (GLOBAL) */
+    max-height: 350px; /* Altura máxima razonable para vistas grandes */
+    overflow-y: auto;  /* Permite el scroll interno */
+    border-left: 3px solid var(--primary-color);
+    padding-left: 10px;
 }
 
 .service-details ul li { margin-bottom: 5px; }
@@ -445,38 +456,96 @@ body.fade-out {
     .main-nav a { font-size: 0.85rem; }
     .intro-section { padding: 0 15px; }
     .card-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 15px; }
-    .card img { width: 50px; height: 50px; }
-    .card h3 { font-size: 0.9rem; }
+    .card { min-height: 140px; }
+    
+    .card img { 
+        width: 40px; 
+        height: 40px; 
+    }
+    
+    .card h3 { 
+        font-size: 0.95rem; 
+        line-height: 1.3;
+    }
     .service-name { font-size: 1.1rem; }
     .section-title, .description { margin-left: 15px; }
     .main-footer { padding: 10px 15px; }
 }
 
 @media (max-width: 600px) {
+    /* Asegura que textos largos no se corten */
+    p, h1, h2, h3, h4, h5, h6, a, span {
+        word-break: break-word;
+        overflow-wrap: anywhere;
+    }
+
     .main-header { padding: 5px; }
-    .main-nav ul { flex-direction: column; align-items: center; }
-    .main-nav li { margin: 5px 0; }
+
+    /* Navegación centrada */
+    .main-nav ul {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .main-nav li { width: 100%; }
+    .main-nav a {
+        display: block;
+        padding: 8px 0;
+        font-size: 1rem;
+    }
+
     .search-container { padding: 10px; }
     .section-title { font-size: 1.5rem; margin-left: 10px; }
     .description { font-size: 1rem; margin-left: 10px; }
 
-    /* 🔹 Mejora para tarjetas en móviles */
+    /* Tarjetas en móviles (Asegura que el texto h3 se vea completo) */
     .card-grid {
         display: grid;
-        grid-template-columns: 1fr 1fr; /* 2 columnas fijas */
+        grid-template-columns: 1fr 1fr;
         gap: 12px;
         padding: 10px;
     }
-
     .card {
-        aspect-ratio: auto;  /* altura libre */
-        min-height: 120px;   /* evita solapamiento */
+        aspect-ratio: auto;
+        min-height: 140px;
+        padding: 8px;
+    }
+    
+    .card img { 
+        width: 40px; 
+        height: 40px; 
+    }
+    
+    .card h3 { 
+        font-size: 0.9rem; 
+        line-height: 1.3;
+        overflow: visible; 
     }
 
-    .card img { width: 40px; height: 40px; }
-    .card h3 { font-size: 0.8rem; line-height: 1.2; }
+    /* Contenedores al 100% */
+    .container, .intro-section, .service-list, #search-results {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    /* SOLUCIÓN LISTAS LARGAS EN MÓVILES: Sobrescribe la altura global (350px) */
+    .service-details ul {
+        max-height: 200px; /* Hace la lista más compacta para la pantalla del celular */
+    }
 
+    /* Footer adaptado */
+    .main-footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+        padding: 10px;
+    }
+    .footer-contact, .social-links-and-map {
+        width: 100%;
+        justify-content: center;
+    }
     .footer-contact p { font-size: 0.7rem; }
-    .main-footer { flex-direction: column; text-align: center; gap: 5px; padding: 5px; }
-    .social-links-and-map { justify-content: center; width: 100%; }
 }
