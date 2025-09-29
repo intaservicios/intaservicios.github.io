@@ -197,11 +197,11 @@
     "id": "suelo_agua_material",
     "titulo": "Laboratorio de Suelo, Agua y Material Vegetal",
     "page_titulo": "Laboratorio de Suelo, Agua y Material Vegetal",
-    "page_descripcion": "Nuestro laboratorio está dedicado al desarrollo y ajuste de metodologías de análisis relacionados a suelo, agua y material vegetal. Brinda apoyo a la investigación y extensión, y también ofrece servicios de análisis al sector privado.",
+    "page_descripcion": "Nuestro laboratorio está dedicado al desarrollo y ajuste de metodologías de análisis relacionadas con suelo, agua y material vegetal; brinda apoyo a la investigación y extensión, y también ofrece servicios de análisis al sector privado.",
     "imagen": "img/15.png",
     "detalles": [
       {
-        "titulo": "SUELO",
+        "titulo": "Suelo",
         "descripcion": [
           "Salinidad Simple (CEes, pHp, VS)",
           "Salinidad Básica (CEes, sales probables, pH, VS, humedad de saturación, Ca, Mg, Na, Cl, RAS)",
@@ -222,11 +222,11 @@
           "Calcáreo Total - Calcimetría",
           "Requerimiento de calcio"
         ],
-        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
-        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+        "responsable": "Mariana Pino | Jorge Esteban Pérez Peña",
+        "contacto": "Mariana Pino: pino.mariana@inta.gob.ar | Jorge Esteban Pérez Peña: perezpena.jorge@inta.gob.ar"
       },
       {
-        "titulo": "FERTILIDAD",
+        "titulo": "Fertilidad",
         "descripcion": [
           "Fertilidad simple (N, P y K)",
           "Fertilidad completa (N, P, K, MO)",
@@ -241,11 +241,11 @@
           "N-NH4 Extracción con ClK - Determinación por arrastre de vapor",
           "N-(NO3, NH4) Extracción con ClK - Determinación por arrastre de vapor"
         ],
-        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
-        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+        "responsable": "Mariana Pino | Jorge Esteban Pérez Peña",
+        "contacto": "Mariana Pino: pino.mariana@inta.gob.ar | Jorge Esteban Pérez Peña: perezpena.jorge@inta.gob.ar"
       },
       {
-        "titulo": "FÍSICA",
+        "titulo": "Física",
         "descripcion": [
           "Curva de Capacidad Hídrica por 3 puntos (10, 30, 1500 kPa)",
           "Punto adicional para la curva de capacidad hídrica",
@@ -254,35 +254,22 @@
           "Fraccionamiento de arenas 6 fracciones (2000µ, 1000µ, 500µ, 250µ, 100µ, 50µ, 20µ)",
           "Humedad de suelo"
         ],
-        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
-        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+        "responsable": "Mariana Pino | Jorge Esteban Pérez Peña",
+        "contacto": "Mariana Pino: pino.mariana@inta.gob.ar | Jorge Esteban Pérez Peña: perezpena.jorge@inta.gob.ar"
       },
       {
-        "titulo": "MATERIAL VEGETAL",
+        "titulo": "Material Vegetal",
         "descripcion": [
           "Macronutrientes (N, P, K, Ca, Mg)",
           "Micronutrientes (Fe, Cu, Zn, Mn)",
           "Macronutrientes + Micronutrientes",
           "Nitrógeno total - Kjeldahl modificado mv"
         ],
-        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
-        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+        "responsable": "Mariana Pino | Jorge Esteban Pérez Peña",
+        "contacto": "Mariana Pino: pino.mariana@inta.gob.ar | Jorge Esteban Pérez Peña: perezpena.jorge@inta.gob.ar"
       },
       {
-        "titulo": "ANÁLISIS EXTRA",
-        "descripcion": [
-          "N-NO3 (Extracción con ClNa - Determinación por arrastre de vapor)",
-          "Na",
-          "Cl",
-          "Boro (MV - Microfotocolorimetría)",
-          "Carbono total",
-          "Determinación de biomasa"
-        ],
-        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
-        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
-      },
-      {
-        "titulo": "AGUA PARA USO AGRÍCOLA",
+        "titulo": "Agua para uso Agrícola",
         "descripcion": [
           "Agua aptitud para riego (CEA, pH, Ca, Mg, Na, Cl, SO4, CO3, HCO3, RAS)",
           "Salinidad Simple (CEA, pH)",
@@ -301,11 +288,11 @@
           "Dureza total, permanente y temporaria",
           "Boro - (agua Microfotocolorimetría)"
         ],
-        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
-        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+        "responsable": "Mariana Pino | Jorge Esteban Pérez Peña",
+        "contacto": "Mariana Pino: pino.mariana@inta.gob.ar | Jorge Esteban Pérez Peña: perezpena.jorge@inta.gob.ar"
       },
       {
-        "titulo": "ABONOS ORGÁNICOS (Sólidos y líquidos)",
+        "titulo": "Abonos Orgánicos (Sólidos y líquidos)",
         "descripcion": [
           "Humedad de abono",
           "Materia orgánica abono",
@@ -320,28 +307,27 @@
           "Macroelemento soluble o total (cada elemento)",
           "Microelemento soluble o total (cada elemento)"
         ],
-        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
-        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+        "responsable": "Mariana Pino | Jorge Esteban Pérez Peña",
+        "contacto": "Mariana Pino: pino.mariana@inta.gob.ar | Jorge Esteban Pérez Peña: perezpena.jorge@inta.gob.ar"
       },
       {
-        "titulo": "ESPECIALES",
-        "descripcion": [
-          "Macroelemento y microelemento soluble por AA (cada elemento)"
-        ],
-        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
-        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
-      },
-      {
-        "titulo": "OTROS",
+        "titulo": "Otros",
         "descripcion": [
           "Ca en fruta procesada",
-          "Cu en solución"
+          "Cu en solución",
+          "Macroelemento y microelemento soluble por AA (cada elemento)",
+          "N-NO3 (Extracción con ClNa - Determinación por arrastre de vapor)",
+          "Na",
+          "Cl",
+          "Boro (MV - Microfotocolorimetría)",
+          "Carbono total",
+          "Determinación de biomasa"
         ],
-        "responsable": "MARIANA PINO - JORGE ESTEBAN PEREZ PEÑA",
-        "contacto": "MARIANA PINO: pino.mariana@inta.gob.ar | JORGE ESTEBAN PEREZ PEÑA: perezpena.jorge@inta.gob.ar"
+        "responsable": "Mariana Pino | Jorge Esteban Pérez Peña",
+        "contacto": "Mariana Pino: pino.mariana@inta.gob.ar | Jorge Esteban Pérez Peña: perezpena.jorge@inta.gob.ar"
       }
     ]
-  },
+},    
   {
     "id": "fitovirologia",
     "titulo": "Laboratorio de Fitovirología",
