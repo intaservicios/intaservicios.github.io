@@ -75,15 +75,20 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // === RENDER DETALLES DE LABORATORIOS / AGENCIAS / SERVICIOS ===
+    // --------------------------------------------------------------------------
+    // === RENDER DETALLES DE LABORATORIOS / AGENCIAS / SERVICIOS (SIN IMAGEN) ===
+    // --------------------------------------------------------------------------
     const loadServiceDetails = (item) => {
         const container = document.getElementById('lab-details-container');
         if (!container) return;
         container.innerHTML = '';
 
+        // Se ELIMINA la lógica de 'imageHtml' para que no aparezca la imagen grande
+
         const htmlContent = `
             <h2 class="section-title">${item.page_titulo || item.titulo}</h2>
             <p class="description">${item.page_descripcion || item.descripcion}</p>
+            
             <div class="service-list">
                 ${item.detalles.map(detail => {
                     const descripcion = Array.isArray(detail.descripcion) ?
@@ -122,7 +127,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    // === RENDER TARJETAS EN PÁGINA PRINCIPAL ===
+    // --------------------------------------------------------------------------
+    // === RENDER TARJETAS EN PÁGINA PRINCIPAL (CON IMAGEN/ÍCONO) ===
+    // --------------------------------------------------------------------------
     const renderCards = (items, tipo) => {
         const grid = document.getElementById('service-grid');
         if (!grid) return;
@@ -136,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.innerHTML = `
                 <img src="${item.imagen || ''}" alt="Ícono de ${item.titulo}">
                 <h3>${item.titulo}</h3>
-            `;
+            `; // La imagen vuelve a la tarjeta
             grid.appendChild(card);
         });
     };
@@ -200,5 +207,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
-
 
