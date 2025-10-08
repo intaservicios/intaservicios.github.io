@@ -1,0 +1,632 @@
+/* ----------------------------------------------------------------------
+    SECCIÓN 1: VARIABLES Y ESTILOS GLOBALES
+---------------------------------------------------------------------- */
+:root {
+    --primary-color: #004E8C;
+    --secondary-color: #0087d3;
+    --background-color: #f0f2f5; /* Gris institucional claro */
+    --text-color: #333;
+    --card-bg: white;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --hover-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    --border-radius: 12px;
+    --transition-speed: 0.3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    /* 💥 FONDO RESTABLECIDO A GRIS SÓLIDO (SIN IMAGEN) 💥 */
+    background-image: none;         /* Elimina la imagen de fondo */
+    background-color: var(--background-color); /* Aplica el gris de las variables */
+    background-attachment: fixed;    /* Mantiene esta propiedad para evitar destellos al cargar */
+    
+    color: var(--text-color);
+    line-height: 1.6;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+    font-size: 16px; 
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+body.fade-out {
+    animation: fadeOut 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Utilidades */
+.shadow {
+    box-shadow: var(--shadow);
+    transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+.hover-shadow:hover {
+    box-shadow: var(--hover-shadow);
+    transform: translateY(-5px);
+}
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 2: ENCABEZADO (HEADER)
+---------------------------------------------------------------------- */
+.main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--card-bg);
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+.header-top-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.header-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 0;
+    display: block;
+}
+
+.inta-logo {
+    max-height: 50px;
+}
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 3: NAVEGACIÓN
+---------------------------------------------------------------------- */
+.main-nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 20px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    margin: 0 10px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+    transition: color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    outline: none;
+}
+
+.dropdown { position: relative; }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--primary-color);
+    min-width: 250px;
+    border-radius: var(--border-radius);
+    padding: 10px 0;
+    margin-top: 15px;
+    box-shadow: var(--shadow);
+    z-index: 10;
+}
+
+.dropdown:focus-within .dropdown-content,
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover,
+.dropdown-content a:focus {
+    background-color: #005a9e;
+}
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 4: BARRA DE BÚSQUEDA
+---------------------------------------------------------------------- */
+.search-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--primary-color);
+    border-radius: 25px;
+    padding: 5px 15px;
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    box-shadow: var(--shadow);
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    transition: color var(--transition-speed) ease;
+}
+
+.search-bar button:hover,
+.search-bar button:focus {
+    color: var(--secondary-color);
+    outline: none;
+}
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 5: INTRODUCCIÓN Y TARJETAS (CON IMAGEN/ÍCONO)
+---------------------------------------------------------------------- */
+.intro-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px; 
+    text-align: left;
+}
+
+/* Revertimos la justificación de la descripción de la introducción */
+.intro-section .section-title,
+.intro-section .description {
+    margin-bottom: 20px;
+    text-align: left; 
+}
+
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    text-align: center; /* Se mantiene centrado */
+    text-decoration: none;
+    color: var(--text-color);
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-height: 150px; /* Asegura una altura mínima */
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--hover-shadow);
+}
+
+/* ESTILOS DE IMAGEN DE TARJETA REINTRODUCIDOS */
+.card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease;
+}
+
+.card img:hover,
+.card img:focus {
+    transform: scale(1.1);
+}
+
+.card h3 {
+    font-size: 1rem;
+    margin: 5px 0;
+    line-height: 1.3;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    flex-grow: 1;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+    overflow: visible;
+}
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 6: DETALLES DE SERVICIOS
+---------------------------------------------------------------------- */
+.section-title { 
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin: 0 0 20px 20px;
+}
+
+/* JUSTIFICACIÓN APLICADA SOLO A LA DESCRIPCIÓN GENERAL (texto de cuerpo) */
+.description { 
+    font-size: 1.1rem;
+    margin: 0 0 40px 20px;
+    text-align: justify; 
+}
+
+.service-list {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.service-item {
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.service-name {
+    padding: 20px;
+    margin: 0;
+    color: var(--primary-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.service-name i { transition: transform var(--transition-speed) ease; }
+
+.service-name.active i { transform: rotate(180deg); }
+
+.service-details {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+.service-details.active {
+    max-height: 500px;
+    padding-bottom: 20px;
+}
+
+/* JUSTIFICACIÓN APLICADA SOLO AL TEXTO DE DETALLE DEL LABORATORIO/SERVICIO */
+.service-details p { 
+    margin: 5px 0;
+    text-align: justify; 
+}
+
+.service-details ul { 
+    list-style-type: disc;
+    margin: 10px 0 10px 20px;
+    padding: 0;
+    text-align: justify;
+    
+    /* SOLUCIÓN LISTAS LARGAS ESCRITORIO/TABLET (GLOBAL) */
+    max-height: 350px; /* Altura máxima razonable para vistas grandes */
+    overflow-y: auto;  /* Permite el scroll interno */
+    border-left: 3px solid var(--primary-color);
+    padding-left: 10px;
+}
+
+.service-details ul li { margin-bottom: 5px; }
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 7: RESULTADOS DE BÚSQUEDA
+---------------------------------------------------------------------- */
+#search-results {
+    display: none;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px 20px;
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    opacity: 0;
+    animation: fadeIn 0.3s forwards;
+}
+
+#search-results h2 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+#results-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#results-list a {
+    display: block;
+    padding: 10px 15px;
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    color: var(--text-color);
+    transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+#results-list a:hover,
+#results-list a:focus {
+    transform: translateY(-2px);
+    box-shadow: var(--hover-shadow);
+}
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 8: PIE DE PÁGINA
+---------------------------------------------------------------------- */
+.main-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 0.85rem;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-contact p {
+    margin: 0;
+    font-size: 0.75rem;
+}
+
+.social-links-and-map {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.social-links-and-map a {
+    color: white;
+    transition: transform var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+
+.social-links-and-map i { font-size: 1.2rem; }
+
+.social-links-and-map a:hover,
+.social-links-and-map a:focus {
+    transform: scale(1.2);
+    color: var(--secondary-color);
+    outline: none;
+}
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 9: MEDIA QUERIES (MOBILE FIRST)
+---------------------------------------------------------------------- */
+@media (min-width: 601px) and (max-width: 900px) {
+    .main-header { gap: 5px; }
+    .header-title { font-size: 1rem; }
+    .inta-logo { max-height: 40px; }
+    .main-nav ul { justify-content: center; }
+    .main-nav a { font-size: 0.85rem; }
+    .intro-section { padding: 0 15px; }
+    
+    /* Justificación de texto en el body (descripción) para tablets */
+    .description { text-align: justify; } 
+    .card-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 15px; }
+    .card { min-height: 140px; }
+    
+    .card img { 
+        width: 40px; 
+        height: 40px; 
+    }
+    
+    .card h3 { 
+        font-size: 0.95rem; 
+        line-height: 1.3;
+    }
+    .service-name { font-size: 1.1rem; }
+    .section-title, .description { margin-left: 15px; }
+    /* Justificación en los detalles de servicio para tablets */
+    .service-details p, .service-details ul { text-align: justify; }
+    .main-footer { padding: 10px 15px; }
+}
+
+@media (max-width: 600px) {
+    /* Asegura que textos largos no se corten */
+    p, h1, h2, h3, h4, h5, h6, a, span {
+        word-break: break-word;
+        overflow-wrap: anywhere;
+    }
+
+    .main-header { padding: 5px; }
+
+    /* NAVEGACIÓN MEJORADA para móvil (Evita el desborde) */
+    .main-nav ul {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        display: block; /* Asegura el flujo vertical */
+    }
+    .main-nav li { width: 100%; }
+    .main-nav a {
+        display: block;
+        padding: 8px 0;
+        font-size: 1rem;
+    }
+    /* CORRECCIÓN: Evita que el dropdown cause scroll horizontal */
+    .dropdown-content {
+        position: static; 
+        min-width: 100%; 
+    }
+    .dropdown:focus-within .dropdown-content,
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+
+    .search-container { padding: 10px; }
+    .section-title { font-size: 1.5rem; margin-left: 10px; }
+    /* Justificación de texto en el body (descripción) para móviles */
+    .description { font-size: 1rem; margin-left: 10px; text-align: justify; } 
+
+    /* TARJETAS: Disposición de dos columnas, flexible */
+    .card-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        padding: 10px;
+        width: auto; /* Asegura que se adapte al ancho */
+    }
+    .card {
+        aspect-ratio: auto;
+        min-height: 140px;
+        padding: 8px;
+        min-width: 0; /* Evita que la tarjeta fuerce un ancho mínimo */
+    }
+    
+    .card img { 
+        width: 40px; 
+        height: 40px; 
+    }
+    
+    .card h3 { 
+        font-size: 0.9rem; 
+        line-height: 1.3;
+        overflow: visible; 
+    }
+
+    /* Contenedores al 100% */
+    .container, .intro-section, .service-list, #search-results {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    /* Justificación en los detalles de servicio para móviles */
+    .service-details p, .service-details ul { text-align: justify; }
+    
+    /* SOLUCIÓN LISTAS LARGAS EN MÓVILES: Sobrescribe la altura global (350px) */
+    .service-details ul {
+        max-height: 200px; /* Hace la lista más compacta para la pantalla del celular */
+    }
+
+    /* FOOTER MEJORADO para móvil (Apilado vertical) */
+    .main-footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+        padding: 10px;
+    }
+    .footer-contact, .social-links-and-map {
+        width: 100%;
+        justify-content: center;
+    }
+    .footer-contact p { font-size: 0.7rem; }
+}
+/* ====== ENCABEZADO DE EMPRESAS INCUBADAS ====== */
+.header-incubadas {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between; /* texto a la izquierda, logo a la derecha */
+    align-items: center;
+    padding: 8px 60px; /* Banda superior más angosta */
+    border-bottom: 3px solid #003366; /* Azul institucional */
+}
+
+.header-incubadas h1 {
+    font-size: 28px;
+    color: #003366; /* Azul característico */
+    font-weight: 700;
+    margin: 0;
+}
+
+.logo-incubadas {
+    height: 85px; /* Logo más grande */
+    width: auto;
+}
+
+/* ====== CONTENIDO PRINCIPAL ====== */
+.contenido-incubadas {
+    padding: 40px;
+    text-align: center;
+}
+
+/* ====== MENSAJE DE CONSTRUCCIÓN (Texto de cuerpo justificado) ====== */
+.construction-message {
+    text-align: center;
+    margin: 100px 20px;
+    color: #003366; /* Azul institucional */
+}
+
+.construction-message i {
+    color: #ff9800; /* Icono naranja para resaltar */
+    margin-bottom: 20px;
+}
+
+.construction-message h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.construction-message p {
+    font-size: 1.2rem;
+    text-align: justify; 
+}
