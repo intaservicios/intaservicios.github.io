@@ -6,7 +6,6 @@
     <title>Servicios de INTA</title>
 
     <link rel="stylesheet" href="style.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -18,6 +17,9 @@
         <div class="header-top-row">
             <h1 class="header-title">SERVICIOS INTA</h1>
             <img src="img/AA.png" alt="Logo de INTA" class="inta-logo">
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
         
         <nav class="main-nav">
@@ -30,7 +32,7 @@
                         <a href="laboratorio_template.html?id=agroalimentos">Agroalimentos</a>
                         <a href="laboratorio_template.html?id=plaga">Plagas agrícolas y ambiente</a>
                         <a href="laboratorio_template.html?id=suelo_agua_material">Suelo, agua y material vegetal</a>
-                        <a href="laboratorio_template.html?id=fitovirologia">Fitovirologia</a>
+                        <a href="laboratorio_template.html?id=fitovirologia">Fitovirología</a>
                         <a href="laboratorio_template.html?id=biotecnologia">Biotecnología</a>
                         <a href="laboratorio_template.html?id=estudios_enologicos">Estudios enológicos</a>
                         <a href="laboratorio_template.html?id=microbiologia_enologica">Microbiología enológica</a>
@@ -79,6 +81,7 @@
             <div class="card-grid" id="service-grid"></div>
         </main>
     </div>
+
     <footer class="main-footer" id="contacto">
         <div class="footer-contact">
             <p>Estación Experimental Mendoza</p>
@@ -92,7 +95,9 @@
             <a href="https://www.youtube.com/user/INTACanal" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
         </div>
     </footer>
+
     <script src="servicios.json"></script>
     <script src="script.js"></script>
+
 </body>
 </html>
