@@ -1,0 +1,77 @@
+[
+  {
+    "id": "agencia_lujan_de_cuyo",
+    "titulo": "Agencia de Extensión Rural Luján de Cuyo",
+    "imagen": "img/agencias/lujan.png",
+    "descripcion": "",
+    "detalles": [
+      {
+        "titulo": "Información de Contacto",
+        "descripcion": "",
+        "responsable": "Rodrigo Espindola",
+        "contacto": "espindola.rodrigo@inta.gob.ar",
+        "Teléfono": "+5491160566027"
+      }
+    ]
+  },
+  {
+    "id": "agencia_guaymallen",
+    "titulo": "Agencia de Extensión Rural Guaymallén",
+    "imagen": "img/agencias/guaymallen.png",
+    "descripcion": "",
+    "detalles": [
+      {
+        "titulo": "Información de Contacto",
+        "descripcion": "",
+        "responsable": "Pedro Bakos",
+        "contacto": "bakos.pedro@inta.gob.ar",
+        "Teléfono": "+5493754410729"
+      }
+    ]
+  },
+  {
+    "id": "agencia_maipu",
+    "titulo": "Agencia de Extensión Rural Maipú",
+    "imagen": "img/agencias/maipu.png",
+    "descripcion": "",
+    "detalles": [
+      {
+        "titulo": "Información de Contacto",
+        "descripcion": "",
+        "responsable": "Elisa Villar",
+        "contacto": "villar.elisa@inta.gob.ar",
+        "Teléfono": "+5491168643738"
+      }
+    ]
+  },
+  {
+    "id": "agencia_uspallata",
+    "titulo": "Oficina de Información Técnica de Uspallata",
+    "imagen": "img/agencias/uspallata.png",
+    "descripcion": "",
+    "detalles": [
+      {
+        "titulo": "Información de Contacto",
+        "descripcion": "",
+        "responsable": "María Lang",
+        "contacto": "lang.maria@inta.gob.ar",
+        "Teléfono": "+5492954398215"
+      }
+    ]
+  },
+  {
+    "id": "agencia_lavalle",
+    "titulo": "Agencia de Extensión Rural Lavalle",
+    "imagen": "img/agencias/lavalle.png",
+    "descripcion": "",
+    "detalles": [
+      {
+        "titulo": "Información de Contacto",
+        "descripcion": "",
+        "responsable": "Mariana Diaz Valentin",
+        "contacto":"valentin.mariana@inta.gob.ar",
+        "Teléfono":" +5492615520943"
+      }
+    ]
+  }
+]

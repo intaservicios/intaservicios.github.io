@@ -1,0 +1,645 @@
+/* ----------------------------------------------------------------------
+    SECCIÓN 1: VARIABLES Y ESTILOS GLOBALES
+---------------------------------------------------------------------- */
+:root {
+    --primary-color: #004E8C;
+    --secondary-color: #0087d3;
+    --background-color: #f0f2f5;
+    --text-color: #333;
+    --card-bg: white;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --hover-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    --border-radius: 12px;
+    --transition-speed: 0.3s;
+    --main-font: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    
+    /* Variables adicionales para el nuevo estilo de búsqueda */
+    --tag-bg: #e0f7fa; /* Fondo suave para la etiqueta */
+    --tag-color: #00796b; /* Texto de la etiqueta */
+    --icon-bg: var(--secondary-color); /* Color del icono */
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+    font-family: var(--main-font);
+    margin: 0;
+    padding: 0;
+    background-image: none;
+    background-color: var(--background-color);
+    background-attachment: fixed;
+    color: var(--text-color);
+    line-height: 1.6;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+    font-size: 16px;
+}
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+body.fade-out { animation: fadeOut 0.5s ease-in-out forwards; }
+@keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
+
+.container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+
+/* Utilidades */
+.shadow { box-shadow: var(--shadow); transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease; }
+.hover-shadow { will-change: transform, box-shadow; }
+.hover-shadow:hover { box-shadow: var(--hover-shadow); transform: translateY(-5px); }
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 2: ENCABEZADO (HEADER) - ESTILOS BASE
+---------------------------------------------------------------------- */
+.main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--card-bg);
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+.header-top-row {
+    width: 100%;
+    display: flex;
+    /* Para desktop: Título a la izquierda, Logo a la derecha */
+    justify-content: flex-start; 
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.header-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 0;
+    display: block;
+}
+
+.inta-logo { 
+    max-height: 50px; 
+    /* Empuja el logo al extremo derecho del contenedor flex */
+    margin-left: auto; 
+}
+/* Ocultar el botón hamburguesa por defecto (Desktop First) */
+.menu-toggle { display: none; } 
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 3: NAVEGACIÓN
+---------------------------------------------------------------------- */
+.main-nav {
+    width: 100%;
+    display: flex; /* Mostrar siempre en escritorio */
+    justify-content: flex-start;
+    padding: 5px 20px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li { margin: 0 10px; }
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+    transition: color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.dropdown { position: relative; }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--primary-color);
+    min-width: 250px;
+    border-radius: var(--border-radius);
+    padding: 10px 0;
+    margin-top: 15px;
+    box-shadow: var(--shadow);
+    z-index: 10;
+}
+
+.dropdown:focus-within .dropdown-content,
+.dropdown:hover .dropdown-content { display: block; }
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+}
+
+.dropdown-content a:hover,
+.dropdown-content a:focus { background-color: #005a9e; }
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 4: BARRA DE BÚSQUEDA
+---------------------------------------------------------------------- */
+.search-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--primary-color);
+    border-radius: 25px;
+    padding: 5px 15px;
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    box-shadow: var(--shadow);
+    position: relative; /* Necesario para que el antiguo resultado flotante funcione, aunque ya no lo usemos. */
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    transition: color var(--transition-speed) ease;
+}
+
+.search-bar button:hover,
+.search-bar button:focus { color: var(--secondary-color); }
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 5: INTRODUCCIÓN Y TARJETAS (VISTA POR DEFECTO)
+---------------------------------------------------------------------- */
+.intro-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.intro-section .section-title,
+.intro-section .description { margin-bottom: 20px; text-align: left; }
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-color);
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-height: 150px;
+    border-bottom: 2px solid transparent;
+}
+
+.card:hover { transform: translateY(-8px); box-shadow: var(--hover-shadow); }
+
+.card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease;
+}
+
+.card img:hover,
+.card img:focus { transform: scale(1.1); }
+
+.card h3 {
+    font-size: 1rem;
+    margin: 5px 0;
+    line-height: 1.3;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    flex-grow: 1;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+    border-bottom: none;
+}
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 6: DETALLES DE SERVICIOS (ACORDEÓN)
+---------------------------------------------------------------------- */
+.section-title { font-size: 2rem; color: var(--primary-color); margin: 0 0 20px 20px; }
+.description { font-size: 1.1rem; margin: 0 0 40px 20px; text-align: justify; }
+
+.service-list { max-width: 800px; margin: 40px auto; }
+
+.service-item {
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.service-name {
+    padding: 20px;
+    margin: 0;
+    color: var(--primary-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.service-name i { transition: transform var(--transition-speed) ease; }
+.service-name i.active { transform: rotate(180deg); }
+
+.service-details {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+.service-details.active { max-height: 500px; padding-bottom: 20px; }
+
+.service-details p, .service-details ul { text-align: justify; }
+.service-details ul { 
+    list-style-type: disc; 
+    margin: 10px 0 10px 20px; 
+    padding: 0; 
+    max-height: 350px; 
+    overflow-y: auto; 
+    border-left: 3px solid var(--primary-color); 
+    padding-left: 10px; 
+}
+.service-details ul li { margin-bottom: 5px; }
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 7: RESULTADOS DE BÚSQUEDA PROFESIONAL (ESTILO DE LISTA)
+---------------------------------------------------------------------- */
+.search-results-list-pro {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.search-results-list-pro li {
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 15px;
+    transition: all var(--transition-speed) ease;
+}
+
+.search-results-list-pro li:hover {
+    box-shadow: var(--hover-shadow);
+    transform: translateY(-3px);
+}
+
+.result-item-pro {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.result-icon-container {
+    background-color: var(--icon-bg);
+    color: white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0; /* No encogerse */
+    margin-right: 15px;
+}
+
+.result-content-wrapper {
+    flex-grow: 1; /* Ocupar el espacio restante */
+    margin-right: 20px;
+    min-width: 0; /* Permite que el flexbox funcione correctamente con overflow */
+}
+
+.result-category-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--tag-color);
+    background-color: var(--tag-bg);
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.result-title {
+    font-size: 1.15rem;
+    color: var(--primary-color);
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.result-snippet {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 4px 0 0 0;
+    line-height: 1.4;
+    max-height: 36px; /* Limitar a 2 líneas */
+    overflow: hidden;
+    text-align: left;
+}
+
+.result-action-link {
+    flex-shrink: 0; /* No encogerse */
+}
+
+.action-button {
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: background-color var(--transition-speed) ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+.action-button:hover {
+    background-color: var(--primary-color);
+}
+
+.action-button i {
+    margin-left: 8px;
+    transition: transform var(--transition-speed) ease;
+}
+
+.action-button:hover i {
+    transform: translateX(3px);
+}
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 8: PIE DE PÁGINA
+---------------------------------------------------------------------- */
+.main-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 0.85rem;
+}
+
+.footer-contact { display: flex; flex-direction: column; gap: 5px; }
+.footer-contact p { margin: 0; font-size: 0.75rem; }
+
+.social-links-and-map { display: flex; gap: 15px; margin-top: 5px; }
+.social-links-and-map a { color: white; transition: transform var(--transition-speed) ease, color var(--transition-speed) ease; }
+.social-links-and-map i { font-size: 1.2rem; }
+.social-links-and-map a:hover,
+.social-links-and-map a:focus { transform: scale(1.2); color: var(--secondary-color); }
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 9: MEDIA QUERIES (TABLETS Y ESCRITORIO)
+---------------------------------------------------------------------- */
+
+/* Media Query para TABLETAS Y ESCRITORIO (min-width: 601px) */
+@media (min-width: 601px) {
+    /* Logo: Ya definido en estilos base (margin-left: auto) para ir a la derecha */
+    .header-title { font-size: 1.2rem; }
+    .inta-logo { max-height: 50px; }
+    
+    /* 1. Asegurar que el botón Hamburguesa esté oculto */
+    .menu-toggle { display: none !important; } 
+
+    /* 2. Asegurar que la navegación esté visible y en fila */
+    .main-nav {
+        display: flex !important;
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .main-nav ul { justify-content: flex-start; }
+    .main-nav a { font-size: 0.9rem; }
+
+    /* Estilos de Tableta (601px - 900px) - Ajustes sutiles */
+    @media (max-width: 900px) {
+        .header-title { font-size: 1rem; }
+        .inta-logo { max-height: 40px; }
+        .main-nav ul { justify-content: center; }
+        .main-nav a { font-size: 0.85rem; }
+        .intro-section { padding: 0 15px; }
+        .description { text-align: justify; } 
+        .card-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 15px; }
+        .card { min-height: 140px; }
+        .card img { width: 40px; height: 40px; }
+        .card h3 { font-size: 0.95rem; line-height: 1.3; }
+        .service-name { font-size: 1.1rem; }
+        .section-title, .description { margin-left: 15px; }
+        .service-details p, .service-details ul { text-align: justify; }
+        .main-footer { padding: 10px 15px; }
+    }
+}
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 10: MEDIA QUERIES (MÓVILES)
+---------------------------------------------------------------------- */
+
+/* Media Query para MÓVILES (max-width: 600px) */
+@media (max-width: 600px) {
+    p, h1, h2, h3, h4, h5, h6, a, span { word-break: break-word; overflow-wrap: anywhere; }
+
+    .main-header { padding: 5px; }
+    
+    /* 1. Mostrar el botón Hamburguesa */
+    .menu-toggle { display: block; background: none; border: none; font-size: 1.5rem; color: var(--primary-color); cursor: pointer; padding: 10px; } 
+
+    /* Aseguramos que los elementos del top row se separen para el logo y el toggle */
+    .header-top-row {
+        /* Distribuir título/logo/toggle equitativamente */
+        justify-content: space-between;
+    }
+
+    /* 2. Ajuste del Logo en Móvil */
+    .inta-logo {
+        max-height: 40px; 
+        /* Permite que el logo se coloque de forma compacta y no se vaya al extremo derecho */
+        margin-left: 0; 
+    }
+    
+    /* Ocultar Navegación y alinear en columna */
+    .main-nav { display: none; flex-direction: column; width: 100%; }
+    .main-nav ul { flex-direction: column; align-items: flex-start; padding-left: 15px; }
+    .main-nav li { width: 100%; margin: 0; }
+    .main-nav a { width: 100%; padding: 10px 0; }
+    .main-nav.active { display: flex; }
+
+    .dropdown-content { position: static; background-color: var(--secondary-color); border-radius: 0; padding-left: 25px; }
+    .dropdown-content a { color: white; padding-left: 25px; }
+
+    .search-container { padding: 10px; }
+    .section-title { font-size: 1.5rem; margin-left: 10px; }
+    .description { font-size: 1rem; margin-left: 10px; text-align: justify; }
+
+    .card-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 10px; width: auto; }
+    .card { aspect-ratio: auto; min-height: 140px; padding: 8px; min-width: 0; }
+    .card img { width: 40px; height: 40px; }
+    .card h3 { font-size: 0.9rem; line-height: 1.3; }
+
+    .container, .intro-section, .service-list { width: 100%; max-width: 100%; padding: 10px; margin: 0; }
+
+    .service-details ul { max-height: 200px; }
+
+    .main-footer { flex-direction: column; align-items: flex-start; gap: 15px; }
+
+    /* Estilos de búsqueda profesional en móvil */
+    .search-results-list-pro { padding: 10px; }
+
+    .result-item-pro {
+        flex-wrap: wrap; 
+        padding: 15px;
+    }
+
+    .result-icon-container { margin-right: 10px; }
+
+    .result-content-wrapper {
+        width: calc(100% - 60px); 
+        margin-bottom: 10px;
+        margin-right: 0;
+        order: 1; 
+    }
+    
+    .result-category-tag { margin-top: 5px; }
+
+    .result-action-link {
+        width: 100%; 
+        text-align: right;
+        order: 3; 
+    }
+
+    .action-button {
+        padding: 6px 12px;
+        font-size: 0.85rem;
+    }
+}
+
+/* ----------------------------------------------------------------------
+    SECCIÓN 11: ENCABEZADO DE EMPRESAS INCUBADAS (Ejemplo)
+---------------------------------------------------------------------- */
+.header-incubadas {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 60px; 
+    border-bottom: 3px solid #003366;
+}
+
+.header-incubadas h1 { font-size: 28px; color: #003366; font-weight: 700; margin: 0; }
+.logo-incubadas { height: 85px; width: auto; }
+
+.contenido-incubadas { padding: 40px; text-align: center; }
+
+.construction-message { text-align: center; margin: 100px 20px; color: #003366; }
+.construction-message i { color: #ff9800; margin-bottom: 20px; }
+.construction-message h2 { font-size: 2rem; margin-bottom: 15px; }
+.construction-message p { font-size: 1.2rem; text-align: justify; }
+/* ------------------------------------------- */
+/* ESTILOS BOTÓN FLOTANTE DE WHATSAPP */
+/* ------------------------------------------- */
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px; 
+    right: 40px;  
+    background-color: #25d366; 
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 32px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: bounce 2s infinite; 
+    transition: background-color 0.3s ease;
+    
+    /* === CORRECCIÓN CLAVE === */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    border: none;          /* Asegura que no haya un borde accidental */
+}
+
+.whatsapp-float:hover {
+    background-color: #128c7e; 
+    text-decoration: none; /* Opcional: para asegurar que no aparezca al pasar el mouse */
+}
+
+/* Definición de la animación de rebote */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); 
+    }
+    40% {
+        transform: translateY(-10px); 
+    }
+    60% {
+        transform: translateY(-5px); 
+    }
+}
+
+/* Ajuste para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+        font-size: 28px;
+    }
+}

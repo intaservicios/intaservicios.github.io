@@ -1,0 +1,418 @@
+[
+  {
+    "id": "aromas",
+    "titulo": "Laboratorio de Aromas y Sustancias Naturales",
+    "page_titulo": "Laboratorio de Aromas y Sustancias Naturales",
+    "page_descripcion": "Las actividades del Laboratorio de Aromas y Sustancias Naturales están orientadas a la investigación sobre la composición química de materias primas frutihortícolas, insumos y productos procesados de la industria de los alimentos y las bebidas. Como actividad principal se destaca en la evaluación de la calidad química y sensorial de productos y subproductos de la industria vitivinícola. Además, brinda servicios especializados de análisis químicos, asesoramiento y asistencia técnica a empresas del sector.",
+    "detalles": [
+      {
+        "titulo": "Parámetros fenólicos globales en uva, mosto y vino (fenoles, taninos y antocianinas totales; pigmentos poliméricos; parámetros de color).",
+        "descripcion": "Evaluación de parámetros que permiten conocer aspectos relacionados al color y su estabilidad en el tiempo, amargor y astringencia, así como también compuestos con capacidad antioxidante. Metodología: espectrofotometría UV-Vis.",
+        "responsable": "Martín Fanzone - Mariela Assof",
+        "contacto": "fanzone.martin@inta.gob.ar - assof.mariela@inta.gob.ar"
+      },
+      {
+        "titulo": "Parámetros químicos totales en frutas, alimentos, bebidas, aceites esenciales, hierbas medicinales (capacidad antioxidante, carotenoides totales, clorofilas totales, compuestos fenólicos totales).",
+        "descripcion": "Evaluación de compuestos químicos relacionados con el color de diferentes matrices biológicas y su potencial efecto antioxidante. Metodología: espectrofotometría UV-Vis.",
+        "responsable": "Martín Fanzone - Mariela Assof",
+        "contacto": "fanzone.martin@inta.gob.ar - assof.mariela@inta.gob.ar"
+      },
+      {
+        "titulo": "Perfil de compuestos volátiles por HS-SPME y GC-MS en frutas, hortalizas, hongos comestibles, bebidas, destilados, aceites esenciales, hierbas medicinales.",
+        "descripcion": "Evaluación de compuestos volátiles asociados a la calidad de materia prima y productos procesados: terpenoides, alcoholes superiores, ésteres etílicos de ácidos grasos, ésteres etílicos de alcoholes superiores, acetatos de alcoholes superiores, ésteres de alcoholes superiores, norisoprenoides, entre otros.",
+        "responsable": "Martín Fanzone - Mariela Assof",
+        "contacto": "fanzone.martin@inta.gob.ar - assof.mariela@inta.gob.ar"
+      },
+      {
+        "titulo": "Perfil de antocianinas por HPLC-DAD en uvas y vinos.",
+        "descripcion": "Evaluación de antocianinas, compuestos químicos que dan color a diferentes matrices biológicas y productos procesados como vinos y que conforman un parámetro de calidad tanto de materia prima como de producto terminado.",
+        "responsable": "Martín Fanzone - Mariela Assof",
+        "contacto": "fanzone.martin@inta.gob.ar - assof.mariela@inta.gob.ar"
+      },
+      {
+        "titulo": "Perfil de compuestos fenólicos de bajo peso molecular por HPLC-DAD (ácidos fenólicos, flavonoles, dihidroflavonoles, estilbenos) en frutas, hortalizas, bebidas, insumos enológicos.",
+        "descripcion": "A partir de estos compuestos químicos es posible evaluar la calidad química de la uva y el vino y su impacto en los caracteres sensoriales visuales y gustativos de los vinos.",
+        "responsable": "Martín Fanzone - Mariela Assof",
+        "contacto": "fanzone.martin@inta.gob.ar - assof.mariela@inta.gob.ar"
+      },
+      {
+        "titulo": "Perfil de aminoácidos",
+        "descripcion": "Análisis por HPLC-DAD en uvas y vinos. Los aminoácidos son compuestos nitrogenados asociados a la calidad nutracéutica de los alimentos y también son precursores de compuestos volátiles y ciertas aminas biógenas en productos fermentados como el vino.",
+        "responsable": "Martín Fanzone - Mariela Assof",
+        "contacto": "fanzone.martin@inta.gob.ar - assof.mariela@inta.gob.ar"
+      },
+      {
+        "titulo": "Liofilización",
+        "descripcion": "La liofilización es un proceso de deshidratado que ocurre a bajas temperaturas, lo que permite una mejor preservación y estabilidad de compuestos químicos de interés para la industria de los alimentos y las bebidas.",
+        "responsable": "Martín Fanzone - Mariela Assof",
+        "contacto": "fanzone.martin@inta.gob.ar - assof.mariela@inta.gob.ar"
+      },
+      {
+        "titulo": "Capacitaciones en metodologías analíticas, puesta en funcionamiento de instrumental analítico, diseño experimental",
+        "descripcion": "Se brinda asesoramiento técnico en la implementación de metodologías analíticas para las determinaciones químicas en las que el Laboratorio se ha especializado.",
+        "responsable": "Martín Fanzone - Mariela Assof",
+        "contacto": "fanzone.martin@inta.gob.ar - assof.mariela@inta.gob.ar"
+      },
+      {
+        "titulo": "Determinación de haloanisoles por GC-MS en insumos de bodega.",
+        "descripcion": "Los haloanisoles son compuestos volátiles considerados de defecto en los vinos, generando aromas a trapo húmedo y sabores a corcho.",
+        "responsable": "Martín Fanzone - Mariela Assof",
+        "contacto": "fanzone.martin@inta.gob.ar - assof.mariela@inta.gob.ar"
+      },
+      {
+        "titulo": "Determinación de metoxipirazinas por GC-MS en uvas y vinos",
+        "descripcion": "Las metoxipirazinas son compuestos volátiles varietales, es decir, provienen de la uva y forman parte de la huella dactilar identitaria de ciertos cepajes como el Cabernet sauvignon.",
+        "responsable": "Martín Fanzone - Mariela Assof",
+        "contacto": "fanzone.martin@inta.gob.ar - assof.mariela@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "fitopatologias",
+    "titulo": "Laboratorio de Fitopatología",
+    "page_titulo": "Laboratorio de Fitopatología",
+    "page_descripcion": "El Laboratorio proporciona un apoyo valioso para productores, viveristas y empresarios en la gestión de sus cultivos ya que a través del servicio de diagnóstico temprano de enfermedades previene pérdidas económicas y mejora la calidad. Las investigadoras del laboratorio diseñan ensayos in vitro y a campo adaptados a cada cultivo y condiciones locales, para evaluar el comportamiento de diferentes productos contra enfermedades. Se realizan evaluaciones en condiciones reales, procesamiento de datos, análisis estadísticos e informes técnicos.",
+    "detalles": [
+      {
+        "titulo": "Diagnóstico de enfermedades causadas por hongos y bacterias por métodos tradicionales y moleculares",
+        "descripcion": "Diagnóstico de enfermedades mediante observación de síntomas y aislamiento en medios de cultivos generales o específicos y técnicas moleculares en vid, olivo, frutales de carozo y pepita, frutos secos, frutillas y hortícolas",
+        "responsable": "Georgina Escoriaza - María Valeria Longone - María Fernanda Arias - Sandra D´Innocenzo",
+        "contacto": "escoriaza.maria@inta.gob.ar - longone.maria@inta.gob.ar - arias.mariaf@inta.gob.ar - dinnocenzo.sandra@inta.gob.ar"
+      },
+      {
+        "titulo": "Detección de hongos y bacterias en suelo",
+        "descripcion": "Determinación de hongos patógenos, de hongos potencialmente benéficos y de Agrobacterium tumefaciens mediante aislamiento en medios de cultivos generales o específicos y técnicas moleculares",
+        "responsable": "Georgina Escoriaza - María Valeria Longone - María Fernanda Arias - Sandra D´Innocenzo",
+        "contacto": "escoriaza.maria@inta.gob.ar - longone.maria@inta.gob.ar - arias.mariaf@inta.gob.ar - dinnocenzo.sandra@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "agroalimentos",
+    "titulo": "Laboratorio de Agroalimentos",
+    "page_titulo": "Laboratorio de Agroalimentos - Calidad y poscosecha de productos frutihortícolas",
+    "page_descripcion": "El Laboratorio de Agroalimentos investiga y desarrolla tecnologías para la calidad y conservación poscosecha de alimentos, evaluando cultivares de frutas, hortalizas y nuevos desarrollos como hongos comestibles. Realiza controles de calidad física, química y sensorial, y el seguimiento de su manejo en empaque, conservación, transporte y comercialización. Además, estudia alternativas para agregar valor a productos y derivados",
+    "detalles": [
+      {
+        "titulo": "Determinación de cosecha del momento oportuno de cosecha de frutas y hortalizas",
+        "descripcion": "",
+        "responsable": "María Isabel Quiroga ",
+        "contacto": "quiroga.mariaisabel@inta.gob.ar"
+      },
+      {
+        "titulo": "Control de calidad",
+        "descripcion": "Análisis físicos y químicos en frutas y hortalizas desde el campo hasta el consumidor.",
+        "responsable": "María Isabel Quiroga",
+        "contacto": "quiroga.mariaisabel@inta.gob.ar"
+      },
+      {
+        "titulo": "Determinación de composición gaseosa",
+        "descripcion": "Análisis de composición gaseosa ambiental, en envases y embalajes.",
+        "responsable": "María Isabel Quiroga",
+        "contacto": "quiroga.mariaisabel@inta.gob.ar"
+      },
+      {
+        "titulo": "Logística de empaque, conservación y transporte de productos",
+        "descripcion": "Logística: control y seguimiento de las actividades involucradas en el manejo de empaque, conservación frigorífica (sanidad, estibaje, temperatura y humedad relativa, composición gaseosa y tiempos de almacenamiento), transporte y comercialización.",
+        "responsable": "María Isabel Quiroga",
+        "contacto": "quiroga.mariaisabel@inta.gob.ar"
+      },
+      {
+        "titulo": "Sustratos para cultivo de hongos",
+        "descripcion": "Formulación y evaluación de sustratos para el cultivo sustentable de hongos.",
+        "responsable": "Cecilia Cesari",
+        "contacto": "cesari.cecilia@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "plaga",
+    "titulo": "Laboratorio de plagas agrícolas y ambiente",
+    "page_titulo": "Laboratorio de plagas agrícolas y ambiente",
+    "page_descripcion": "El laboratorio pertenece a la Red de Laboratorios de SENASA (LA 066) y realizan análisis a pedido de este Organismo. Además, se encuentra acreditado por el OAA bajo la Norma ISO/IEC 17025 vigente. Este laboratorio ofrece servicios a SENASA, empresas y clientes particulares",
+    "detalles": [
+      {
+        "titulo": "Determinación de plagas cuarentenarias en frutos de exportación e importación",
+        "descripcion": "Bananas y platano de Ecuador y Colombia, Ananá, palta y uva para exportación",
+        "responsable": "Graciela Mendoza - Bruno Marcucci ",
+        "contacto": "mendoza.graciela@inta.gob.ar - marcucci.bruno@inta.gob.ar  "
+      },
+      {
+        "titulo": "Eficacia de pesticidas",
+        "descripcion": "Determinación de la eficacia de pesticidas a campo.",
+        "responsable": "Bruno Marcucci",
+        "contacto": "marcucci.bruno@inta.gob.ar"
+      },
+      {
+        "titulo": "Determinación de residuos de pesticidas por cromatografía gaseosa",
+        "descripcion": "Determinación de residuos de pesticidas organoclorados, organofosforados y piretroide en frutas, hortalizas, agua, vino, frutos secos, cereales y tierra, por cromatografía gaseosa",
+        "responsable": "Rosanna Navarro - María Eugenia Turaglio",
+        "contacto": "navarro.rosanna@inta.gob.ar - turaglio.maria@inta.gob.ar"
+      },
+      {
+        "titulo": "Determinación de residuos de pesticidas por cromatografía líquida",
+        "descripcion": "Determinación de residuos de pesticidas carbamatos, neonicotinoides, benzimidazoles, phthalimidas, triazoles, etc en frutas, hortalizas, agua, vino, frutos secos, cereales y tierra, por cromatografía líquida.",
+        "responsable": "Rosanna Navarro - María Eugenia Turaglio",
+        "contacto": "navarro.rosanna@inta.gob.ar - turaglio.maria@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "suelo_agua_material",
+    "titulo": "Laboratorio de Suelo, Agua y Material Vegetal",
+    "page_titulo": "Laboratorio de Suelo, Agua y Material Vegetal",
+    "page_descripcion": "Nuestro laboratorio está dedicado al desarrollo y ajuste de metodologías de análisis relacionadas con suelo, agua y material vegetal; brinda apoyo a la investigación y extensión, y también ofrece servicios de análisis al sector privado.",
+    "detalles": [
+      {
+        "titulo": "Suelo",
+        "descripcion": [
+          "Salinidad Simple (CEes, pHp, VS)",
+          "Salinidad Básica (CEes, sales probables, pH, VS, humedad de saturación, Ca, Mg, Na, Cl, RAS)",
+          "Salinidad Completa (CEes, sales probables, pH, VS, humedad de saturación, Ca, Mg, Na, Cl, SO4, CO3, HCO3 y RAS)",
+          "CEes",
+          "pHp",
+          "CE (suelo/agua, 1:5)",
+          "pH hidrolítico",
+          "RAS",
+          "Volumen de Sedimentación",
+          "Boro - Microfotocolorimetría en extracto de saturación",
+          "CIC (Capacidad de intercambio catiónico) - Saturación con acetato de sodio",
+          "Cationes intercambiables (Ca, Mg, Na, K)",
+          "Cationes intercambiables cada uno (Ca, Mg, Na, K)",
+          "Potasio (K) en extracto de saturación",
+          "Sodio (Na) en extracto de saturación",
+          "Yeso total",
+          "Calcáreo Total - Calcimetría",
+          "Requerimiento de calcio"
+        ],
+        "responsable": "Mariana Pino - Jorge Esteban Pérez Peña",
+        "contacto": "pino.mariana@inta.gob.ar - perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Fertilidad",
+        "descripcion": [
+          "Fertilidad simple (N, P y K)",
+          "Fertilidad completa (N, P, K, MO)",
+          "Materia orgánica suelo",
+          "Fertilidad Micronutrientes (Fe, Mn, Cu, Zn)",
+          "Fertilidad Micronutrientes (cada uno)",
+          "Nitrógeno Total - Kjeldahl modificado",
+          "Fósforo extracción carbónica",
+          "Fósforo (método Olsen)",
+          "Potasio disponible (extracción con acetato de NH4+)",
+          "N-NO3 Extracción con ClK - Determinación por arrastre de vapor",
+          "N-NH4 Extracción con ClK - Determinación por arrastre de vapor",
+          "N-(NO3, NH4) Extracción con ClK - Determinación por arrastre de vapor"
+        ],
+        "responsable": "Mariana Pino - Jorge Esteban Pérez Peña",
+        "contacto": "pino.mariana@inta.gob.ar - perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Física",
+        "descripcion": [
+          "Curva de Capacidad Hídrica por 3 puntos (10, 30, 1500 kPa)",
+          "Punto adicional para la curva de capacidad hídrica",
+          "Textura Elemental (Densimetría - Clasificación Americana) - Bouyoucos",
+          "Textura Elemental (Densimetría - Clasificación Americana) - Pipeta Robinson",
+          "Fraccionamiento de arenas 6 fracciones (2000µ, 1000µ, 500µ, 250µ, 100µ, 50µ, 20µ)",
+          "Humedad de suelo"
+        ],
+        "responsable": "Mariana Pino - Jorge Esteban Pérez Peña",
+        "contacto": "pino.mariana@inta.gob.ar - Jorge Esteban Pérez Peña: perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Material Vegetal",
+        "descripcion": [
+          "Macronutrientes (N, P, K, Ca, Mg)",
+          "Micronutrientes (Fe, Cu, Zn, Mn)",
+          "Macronutrientes + Micronutrientes",
+          "Nitrógeno total - Kjeldahl modificado mv"
+        ],
+        "responsable": "Mariana Pino - Jorge Esteban Pérez Peña",
+        "contacto": "pino.mariana@inta.gob.ar - perezpena.jorge@inta.gob.ar"
+      },
+      {
+        "titulo": "Agua para uso Agrícola",
+        "descripcion": [
+          "Agua aptitud para riego (CEA, pH, Ca, Mg, Na, Cl, SO4, CO3, HCO3, RAS)",
+          "Salinidad Simple (CEA, pH)",
+          "CE agua",
+          "pH",
+          "Sólidos disueltos totales",
+          "Relación de adsorción de Na (RAS)",
+          "Potasio (K) en agua",
+          "Nitratos (NO3)",
+          "Sulfatos (SO4)",
+          "Boro (B)",
+          "Calcio (Ca)",
+          "Magnesio (Mg)",
+          "Sodio (Na)",
+          "Cloruros (Cl)",
+          "CO3",
+          "HCO3",
+          "Carbono orgánico total",
+          "Agua Potable"
+        ],
+        "responsable": "Mariana Pino - Jorge Esteban Pérez Peña",
+        "contacto": "pino.mariana@inta.gob.ar - perezpena.jorge@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "poscosecha",
+    "titulo": "Laboratorio de Patologías y calidad de poscosecha de frutas y hortalizas",
+    "page_titulo": "Laboratorio de Patologías y calidad de poscosecha de frutas y hortalizas",
+    "page_descripcion": "El laboratorio realiza estudios para prevenir pérdidas poscosecha de frutas y hortalizas debido a enfermedades, analizando el impacto de diferentes tratamientos y condiciones de almacenamiento sobre la calidad y sanidad de los productos. También ofrece servicios de diagnóstico fitopatológico y evaluación de tecnologías para prolongar la vida útil de productos hortícolas y frutícolas.",
+    "detalles": [
+      {
+        "titulo": "Diagnóstico de enfermedades en poscosecha",
+        "descripcion": "Identificación de patógenos causantes de enfermedades en frutas y hortalizas durante la poscosecha mediante técnicas tradicionales y moleculares.",
+        "responsable": "Omar Gonzalez - Mariela Rodríguez",
+        "contacto": "gonzalez.erbin@inta.gob.ar - rodriguez.mariela@inta.gob.ar"
+      },
+      {
+        "titulo": "Evaluación de tratamientos poscosecha para control de enfermedades",
+        "descripcion": "Ensayos de tratamientos físicos, químicos y biológicos para el control de patógenos en frutas y hortalizas durante almacenamiento y transporte.",
+        "responsable": "Omar Gonzalez - Mariela Rodríguez",
+        "contacto": "gonzalez.erbin@inta.gob.ar - rodriguez.mariela@inta.gob.ar"
+      },
+      {
+        "titulo": "Prueba de conservación de productos frescos en cámara de frio",
+        "descripcion": "Pruebas de conservación y evolución de la sanidad de productos frescos en cámara de frío a través de la perdida de calidad",
+        "responsable": "Omar Gonzalez - Mariela Rodríguez",
+        "contacto": "gonzalez.erbin@inta.gob.ar - rodriguez.mariela@inta.gob.ar"
+      }
+    ]
+  },
+   {
+    "id": "biotecnologia",
+    "titulo": "Laboratorio de Biotecnología",
+    "page_titulo": "Laboratorio de biotecnología",
+    "page_descripcion": "El grupo de trabajo en Genómica y Bioinformática está enfocado en el estudio de los genomas de plantas, insectos y microorganismos para entender sus interacciones y aplicaciones en agricultura y medio ambiente. Obtenemos, analizamos e integramos datos x-ómicos mediante herramientas bioinformáticas y de biología molecular",
+    "detalles": [
+      {
+        "titulo": "Producción de plantas de ajo de sanidad controlada",
+        "descripcion": "Servicio especializado que consiste en la obtención de plantas de ajo libres de virus y otros patógenos mediante técnicas de cultivo in vitro y control fitosanitario. Este proceso permite generar material de alta calidad genética y sanitaria, apto para multiplicación y uso en programas de mejoramiento o producción comercial, asegurando mayor rendimiento y uniformidad del cultivo",
+        "responsable": "Javier Barontini - Sandra Garcia Lampasona",
+        "contacto": "barontini.javier@inta.gob.ar - garcia.lampasona@inta.gob.ar"
+      },
+      {
+        "titulo": "Diagnóstico de virus de ajo mediante el empleo de PCR",
+        "descripcion": "Servicio que permite detectar con alta precisión los principales virus que afectan al cultivo de ajo mediante la técnica de reacción en cadena de la polimerasa (PCR). Este análisis garantiza un diagnóstico rápido y confiable, fundamental para seleccionar material vegetal sano y prevenir la diseminación de enfermedades virales en la producción",
+        "responsable": "Javier Barontini - Sandra Garcia Lampasona",
+        "contacto": "barontini.javier@inta.gob.ar - garcia.lampasona@inta.gob.ar"
+      },
+      {
+        "titulo": "Determinacion taxonómica de cochinillas harinosas (Pseudococcidae), con escudo (Diaspididae) y blandas (Coccidae). Determinacion molecular de Pseudococcidae",
+        "descripcion": "Identificación de especies de cochinillas que afectan los cultivos, mediante análisis morfológico y molecular, para un manejo más preciso de plagas",
+        "responsable": "Marcela Gonzalez",
+        "contacto": "gonzalez.marcela@inta.gob.ar"
+      },
+      {
+        "titulo": "Análisis de microbioma",
+        "descripcion": "Caracterización de las bacterias y hongos presentes en una muestra a partir de las secuencias de ADN (método independiente del cultivo en placa)",
+        "responsable": "Marcos Paolinelli",
+        "contacto": "paolinelli.marcos@inta.gob.ar"
+      }
+    ]
+  },
+   {
+    "id": "fitovirologia",
+    "titulo": "Laboratorio de Fitovirología",
+    "page_titulo": "Laboratorio de Fitovirología",
+    "page_descripcion": "El Laboratorio de Fitovirologia de la EEA Mendoza se ha enfocado en virología vegetal, particularmente en vid. A través de las investigaciones conducidas en los últimos años se han realizado aportes a la etiología, epidemiología y control de las enfermedades causadas por virus en la región. Actualmente es el único laboratoriode diagnostico habilitado por INASE para diagnóstico de material de propagación de vid en  el marco de las normativas vigentes",
+    "detalles": [
+      {
+        "titulo": "Diagnóstico de virus de vid",
+        "descripcion": "Se identifican los virus regulados por las normativas de INASE (Res 703/23) por las técnicas establecidas en la misma (RT-PCR y qRT-PCR). Asimismo, se realizan análisis sobre muestras con sintomatología de virus para determinar la etiología de los problemas",
+        "responsable": "SEBASTIÁN GÓMEZ TALQUENCA",
+        "contacto": "gomez.talquenca@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "geomatica",
+    "titulo": "Laboratorio de Geomática",
+    "page_titulo": "Laboratorio de Geomática",
+    "page_descripcion": "El laboratorio ofrece servicios digitales para el agro, orientados a optimizar la toma de decisiones en el territorio",
+    "detalles": [
+      {
+        "titulo": "Generación de mapas de cultivos",
+        "descripcion": "",
+        "responsable": "MARCOS MONTOYA",
+        "contacto": "montoya.marcos@inta.gob.ar"
+      },
+      {
+        "titulo": "Interpolación de puntos de muestreo y análisis de datos geoespaciales",
+        "descripcion": "",
+        "responsable": "MARCOS MONTOYA",
+        "contacto": "montoya.marcos@inta.gob.ar"
+      },
+       {
+        "titulo": "Desarrollo de aplicaciones móviles para el registro de datos en terreno",
+        "descripcion": "",
+        "responsable": "MARCOS MONTOYA",
+        "contacto": "montoya.marcos@inta.gob.ar"
+      }
+    ]
+  },
+   {
+    "id": "estudios_enologicos",
+    "titulo": "Laboratorio de Enología",
+    "page_titulo": "Laboratorio de Enología",
+    "page_descripcion": "El Laboratorio de Enología investiga, desarrolla y transfiere tecnología para el sector vitivinícola. Estudia la composición química y sensorial de uvas y vinos de distintas regiones, aplica estrategias para mejorar la calidad y diversificación del sector y, gracias a su planta piloto única en el país, elabora vinos a pequeña escala para evaluar procesos; por este motivo un referente nacional en innovación y soluciones para la vitivinicultura.",
+    "detalles": [
+      {
+        "titulo": "Análisis sensorial de vinos",
+        "descripcion": "Análisis sensorial de vinos aplicando técnicas discriminativas, descriptivas tradicionales y rápidas, para comparar vinos de distintas regiones",
+        "responsable": "Santiago Eduardo Sari",
+        "contacto": "sari.santiago@inta.gob.ar"
+      },
+      {
+        "titulo": "Técnicas rápidas sensoriales en vinos",
+        "descripcion": "",
+        "responsable": "Santiago Eduardo Sari",
+        "contacto": "sari.santiago@inta.gob.ar"
+      },
+       {
+        "titulo": "Analisis descriptivo",
+        "descripcion": "Análisis sensorial de vinos aplicando técnicas discriminativas, descriptivas tradicionales y rápidas, para comparar vinos de distintas regiones",
+        "responsable": "Santiago Eduardo Sari",
+        "contacto": "sari.santiago@inta.gob.ar"
+      },
+      {
+        "titulo": "Vinificaciones a pequeña escala",
+        "descripcion": "Vinificaciones a pequeña escala en recipientes de 20 litros y 100 litros, medición de variables de campo, de procesos enológicos e insumos.",
+        "responsable": "Santiago Eduardo Sari",
+        "contacto": "sari.santiago@inta.gob.ar"
+      },
+      {
+        "titulo": "Análisis físico-químicos y seguimiento de cinéticas de fermentación",
+        "descripcion": "",
+        "responsable": "Santiago Eduardo Sari",
+        "contacto": "sari.santiago@inta.gob.ar"
+      },
+      {
+        "titulo": "Curso de degustaciones",
+        "descripcion": "Consultar por correo",
+        "responsable": "Santiago Eduardo Sari",
+        "contacto": "sari.santiago@inta.gob.ar"
+      }
+    ]
+  },
+  {
+    "id": "microbiologia_enologica",
+    "titulo": "Laboratorio de microbiología enológica",
+    "page_titulo": "Laboratorio de microbiología enológica",
+    "page_descripcion": "El Laboratorio de Microbiología de la EEAMendoza, junto a la Colección de Microorganismos de INTA Mendoza (CoMIM) ofrece el servicio personalizado para la selección de levaduras propias de un viñedo.",
+    "detalles": [
+      {
+        "titulo": "Selección de levaduras para vinos",
+        "descripcion": "Selección de levaduras que reflejen la diversidad propia de un viñedo o zona definida de interés de la empresa y que aporten caracteres diferenciales, potenciando la expresión del “Terroir” aumentando la tipicidad y carácter único de los vinos.",
+        "responsable": "Mariana Combina",
+        "contacto": "combina.mariana@inta.gob.ar"
+      }
+    ]
+  }
+]
+

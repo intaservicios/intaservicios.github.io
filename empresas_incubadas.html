@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresas Incubadas - INTA</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        :root {
+            --primary-color: #858c99;
+            --secondary-color: #0087d3;
+            --background-color: #f0f2f5;
+            --text-color: #333;
+            --card-bg: white;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: var(--background-color);
+            color: var(--text-color);
+        }
+
+        header.header-incubadas {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: var(--primary-color);
+            color: #fff;
+        }
+        header h1 {
+            font-size: 1.8rem;
+            margin: 0;
+        }
+        .logo-incubadas {
+            height: 60px;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        .info-message {
+            text-align: left;
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 2rem auto;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .info-message h2 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        .info-message ul {
+            padding-left: 1.2rem;
+            margin: 1rem 0;
+        }
+
+        .info-message ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        footer.main-footer {
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: 2rem;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .footer-contact p {
+            margin: 0.3rem 0;
+        }
+
+        .social-links-and-map a {
+            color: #fff;
+            margin-left: 1rem;
+            font-size: 1.4rem;
+            transition: color 0.3s;
+        }
+
+        .social-links-and-map a:hover {
+            color: var(--secondary-color);
+        }
+
+        /* BOTÓN FLOTANTE LINKEDIN */
+        .linkedin-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--primary-color);
+            color: #fff;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            z-index: 1000;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .linkedin-float:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="header-incubadas">
+        <h1>EMPRESAS INCUBADAS</h1>
+        <img src="img/AAA.png" alt="Logo de INTA" class="logo-incubadas">
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <section class="contenido-incubadas">
+            <div class="info-message">
+                <h2>Un nuevo espacio digital del INTA Mendoza</h2>
+                <p>Un nuevo espacio digital que reúne las capacidades, soluciones y propuestas de valor que el INTA ofrece al sector productivo, emprendedor y tecnológico de Mendoza.</p>
+                
+                <p>🔍 <strong>¿Qué vas a encontrar?</strong></p>
+                <ul>
+                    <li>🔹 Servicios tecnológicos especializados</li>
+                    <li>🔹 Asistencia técnica y consultorías</li>
+                    <li>🔹 Capacidades de I+D aplicadas al desarrollo territorial</li>
+                    <li>🔹 Proyectos de innovación abierta y vinculación con empresas</li>
+                    <li>🔹 Oportunidades de colaboración</li>
+                </ul>
+                
+                <p>Este sitio busca facilitar el acceso a la oferta tecnológica del INTA, promoviendo la articulación con actores públicos y privados que apuestan por la innovación como motor de transformación.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="main-footer" id="contacto">
+        <div class="footer-contact">
+            <p>Estación Experimental Agropecuaria Mendoza</p>
+            <p>Instituto Nacional de Tecnología Agropecuaria</p>
+            <p>San Martín, 3853. Mayor Drummond. CP 5505</p>
+            <p>Contacto: 261 496-3020</p>
+        </div>
+        <div class="social-links-and-map">
+            <a href="https://www.google.com/maps/place/Estación+Experimental+Agropecuaria+Mendoza+-+INTA/" target="_blank" aria-label="Google Maps"><i class="fas fa-map-marker-alt"></i></a>
+            <a href="https://www.facebook.com/share/14L7AC9iT4E/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/intamendoza?igsh=MTg3aWhkenk5dTAxNg==" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/user/INTACanal" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    <!-- BOTÓN FLOTANTE LINKEDIN -->
+    <a href="https://www.linkedin.com/company/nodo-cuyo-inta" target="_blank" 
+       class="linkedin-float" aria-label="LinkedIn">
+       <i class="fab fa-linkedin-in"></i>
+    </a>
+
+</body>
+</html>
+

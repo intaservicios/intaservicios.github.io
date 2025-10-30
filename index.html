@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios estación experimental INTA Mendoza</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-top-row">
+            <h1 class="header-title">Servicios estación experimental INTA Mendoza</h1>
+            <img src="img/AA.png" alt="Logo de INTA" class="inta-logo">
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <nav class="main-nav">
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">LABORATORIOS <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="laboratorio_template.html?id=agroalimentos">Agroalimentos</a>
+                        <a href="laboratorio_template.html?id=aromas">Aromas y sustancias naturales</a>
+                        <a href="laboratorio_template.html?id=biotecnologia">Biotecnología</a>
+                        <a href="laboratorio_template.html?id=estudios_enologicos">Estudios enológicos</a>
+                        <a href="laboratorio_template.html?id=fitopatologias">Fitopatología</a>
+                        <a href="laboratorio_template.html?id=fitovirologia">Fitovirología</a>
+                        <a href="laboratorio_template.html?id=geomatica&tipo=laboratorios">Geomática</a>
+                        <a href="laboratorio_template.html?id=microbiologia_enologica">Microbiología enológica</a>
+                        <a href="laboratorio_template.html?id=plaga">Plagas agrícolas y ambiente</a>
+                        <a href="laboratorio_template.html?id=suelo_agua_material">Suelo, agua y material vegetal</a>  
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">AGENCIAS DE EXTENSIÓN <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="laboratorio_template.html?id=agencia_lujan_de_cuyo">Luján de Cuyo</a>
+                        <a href="laboratorio_template.html?id=agencia_guaymallen">Guaymallén</a>
+                        <a href="laboratorio_template.html?id=agencia_maipu">Maipú</a>
+                        <a href="laboratorio_template.html?id=agencia_uspallata">Uspallata</a>
+                        <a href="laboratorio_template.html?id=agencia_lavalle">Lavalle</a>
+                    </div>
+                </li>
+                <li><a href="http://repositorio.inta.gob.ar" target="_blank">REPOSITORIO</a></li>
+                <li><a href="https://www.instagram.com/inta.almacencooperadora.mdz?igsh=aWttYjlhbXkzeW51" target="_blank">COOPERADORA</a></li>
+                <li><a href="empresas_incubadas.html">EMPRESAS INCUBADAS</a></li>
+                <li><a href="https://cmauriciog.github.io/intaeeamzapublico/" target="_blank">ESTACIÓN EXPERIMENTAL</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="search-container">
+        <form id="search-form" class="search-bar" onsubmit="return false;">
+            <input type="text" id="search-input" placeholder="Buscar servicio...">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+    </div>
+
+    <div class="container">
+        <main class="main-content">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <p class="description">
+                Descubre los servicios de análisis y desarrollo que ofrecemos en nuestras áreas de especialización. 
+                Elige la temática para conocer los detalles y contactar con nuestros equipos.
+            </p>
+            <div class="card-grid" id="service-grid"></div>
+        </main>
+    </div>
+
+    <footer class="main-footer" id="contacto">
+        <div class="footer-contact">
+            <p>Estación Experimental Agropecuaria Mendoza</p>
+            <p>Instituto Nacional de Tecnología Agropecuaria</p>
+            <p>San Martín, 3853. Mayor Drummond. CP 5505</p>
+            <p>Contacto: 261 496-3020</p>
+        </div>
+        <div class="social-links-and-map">
+            <a href="https://www.google.com/maps/place/Estación+Experimental+Agropecuaria+Mendoza+-+INTA/" target="_blank" aria-label="Google Maps"><i class="fas fa-map-marker-alt"></i></a>
+            <a href="https://www.facebook.com/share/14L7AC9iT4E/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/intamendoza?igsh=MTg3aWhkenk5dTAxNg==" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/user/INTACanal" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    <a 
+        href=" https://whatsapp.com/channel/0029VaoFFzDLNSaDR5gOaj39 " 
+        target="_blank" 
+        class="whatsapp-float"
+        aria-label="Canal de Difusión de WhatsApp"
+    >
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
