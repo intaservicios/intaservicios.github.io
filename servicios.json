@@ -278,13 +278,7 @@
       "descripcion": "Evaluación de compuestos volátiles asociados a la calidad de materia prima y productos procesados: terpenoides, alcoholes superiores, ésteres etílicos de ácidos grasos, ésteres etílicos de alcoholes superiores, acetatos de alcoholes superiores, ésteres de alcoholes superiores, norisoprenoides por HS-SPME y GC-MS.",
       "responsable": "MARTÍN FANZONE - MARIELA ASSOF",
       "contacto": "fanzone.martin@inta.gob.ar - assof.mariela@inta.gob.ar"
-    },
-    {
-      "titulo": "Determinación de hongos y bacterias patógenas",
-      "descripcion": "Determinación de hongos patógenos, de hongos potencialmente benéficos y de Agrobacterium tumefaciens mediante aislamiento en medios de cultivos generales o específicos y técnicas moleculares",
-      "responsable": "Georgina Escoriaza - Maria Valeria Longone - María Fernanda Arias - Sandra D´Innocenzo",
-      "contacto": "escoriaza.maria@inta.gob.ar - longone.maria@inta.gob.ar - arias.mariaf@inta.gob.ar - dinnocenzo.sandra@inta.gob.ar"
-    }  
+    } 
   ]
   },
   {
@@ -836,5 +830,6 @@
     
 
  
+
 
 
